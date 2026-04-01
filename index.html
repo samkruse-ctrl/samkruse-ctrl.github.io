@@ -8,33 +8,37 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header">
-      <div class="container header-inner">
-        <a class="brand" href="/" aria-label="Homepage">
-          <span class="brand-name">Kruse Interactive Media Home Page</span>
+        <a class="brand" href="/">
+          <h1 class="brand-name">My Web Page</h1>
         </a>
 
-        <nav class="nav" aria-label="Primary">
-          <a href="#features">Project 1</a>
-          <a href="#about">Project 2</a>
-          <a href="#contact">Project 3</a>
+        <nav>
+          <a href="#p1">Project 1</a>
+          <a href="#p2">Project 2</a>
+          <a href="#p3">Project 3</a>
         </nav>
-      </div>
     </header>
 
     <main id="main">
-      <section class="hero">
-        <div class="container hero-inner">
-          <div class="hero-copy">
-            <h1>This is my Home page</h1>
-            <div class="hero-actions">
-              <a class="button primary" href="#contact">flip screen</a>
-              <a class="button" href="#features">dark mode</a>
-            </div>
-          </div>
-        </div>
+      <section class="Intro">
+       
+        
+            <h2>Hi, I'm Sam!</h2>
+            <img src="img/profilePhoto.jpg" alt="Image of me">
+            <p>I've made a few websites before</p>
+            <ul>
+              <li><a href="https://samkrusedesign.com">samkrusedesign.com</a></li>
+              <li>list item two</li>
+              <li>list item three</li>
+            </ul>
+            
+
+           
+            
+           
+       
       </section>
 
     
@@ -42,16 +46,7 @@
      
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>© <span id="year">2026</span> Sam Kruse. All rights reserved.</p>
-        <a href="#main">Back to top</a>
-      </div>
-    </footer>
 
-    <script>
-      // Keep the footer year current with zero build tooling.
-      document.getElementById("year").textContent = String(new Date().getFullYear());
-    </script>
+    <script src="js/main.js" type="module"></script>
   </body>
 </html>

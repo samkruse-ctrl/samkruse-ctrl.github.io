@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1a2400;
+      }
+
+      .cls-2 {
+        fill: #69822b;
+      }
+
+      .cls-3 {
+        fill: #1a2400;
+      }
+
+      .cls-4 {
+        fill: #425c00;
+      }
+
+      .cls-5 {
+        fill: #425c00;
+      }
+
+      .cls-6 {
+        fill: #bac49f;
+      }
+
+      .cls-7 {
+        fill: #495c19;
+      }
+    </style>
+  </defs>
+  <g id="Background_elements" data-name="Background elements">
+    <polygon class="cls-1" points="2 40 2 2 40 2 40 1 40 1 2 1 2 0 0 0 0 2 1 2 1 40 2 40"/>
+    <rect class="cls-1" x="40" width="9" height="1"/>
+    <rect class="cls-1" x="51" width="9" height="1"/>
+    <rect class="cls-1" x="-4" y="44" width="9" height="1" transform="translate(45 44) rotate(90)"/>
+    <polygon class="cls-1" points="60 2 98 2 98 40 99 40 99 40 99 2 100 2 100 0 98 0 98 1 60 1 60 2"/>
+    <rect class="cls-1" x="95" y="44" width="9" height="1" transform="translate(144 -55) rotate(90)"/>
+    <rect class="cls-1" x="40" y="99" width="9" height="1" transform="translate(89 199) rotate(180)"/>
+    <polygon class="cls-1" points="40 98 2 98 2 60 1 60 1 60 1 98 0 98 0 100 2 100 2 99 40 99 40 98"/>
+    <rect class="cls-1" x="-4" y="55" width="9" height="1" transform="translate(-55 56) rotate(-90)"/>
+    <rect class="cls-1" x="95" y="55" width="9" height="1" transform="translate(155 -44) rotate(90)"/>
+    <polygon class="cls-1" points="98 60 98 98 60 98 60 99 60 99 98 99 98 100 100 100 100 98 99 98 99 60 98 60"/>
+    <rect class="cls-1" x="51" y="99" width="9" height="1" transform="translate(111 199) rotate(180)"/>
+  </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <g>
+      <rect class="cls-6" x="14" y="62" width="1" height="1"/>
+      <rect class="cls-6" x="14" y="64" width="1" height="1"/>
+      <rect class="cls-6" x="6" y="68" width="1" height="1"/>
+      <polygon class="cls-6" points="44 9 43 9 43 10 44 10 45 10 45 9 44 9"/>
+      <rect class="cls-6" x="68" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="5" y="69" width="1" height="1"/>
+      <rect class="cls-6" x="12" y="66" width="1" height="1"/>
+      <rect class="cls-6" x="6" y="72" width="1" height="1"/>
+      <polygon class="cls-6" points="55 7 54 7 54 8 53 8 53 9 54 9 55 9 55 8 55 7"/>
+      <rect class="cls-6" x="66" y="3" width="1" height="1"/>
+      <polygon class="cls-6" points="48 9 47 9 47 10 48 10 49 10 49 9 48 9"/>
+      <rect class="cls-6" x="10" y="68" width="1" height="1"/>
+      <polygon class="cls-6" points="52 9 51 9 51 10 52 10 53 10 53 9 52 9"/>
+      <rect class="cls-6" x="8" y="70" width="1" height="1"/>
+      <polygon class="cls-6" points="7 63 7 62 6 62 5 62 5 63 6 63 7 63"/>
+      <rect class="cls-6" x="47" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="45" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="43" y="6" width="1" height="1"/>
+      <polygon class="cls-6" points="11 59 11 58 10 58 9 58 9 59 10 59 11 59"/>
+      <polygon class="cls-6" points="10 61 11 61 11 60 10 60 9 60 9 61 10 61"/>
+      <polygon class="cls-6" points="8 62 8 63 9 63 9 62 9 61 8 61 7 61 7 62 8 62"/>
+      <rect class="cls-6" x="6" y="66" width="1" height="1"/>
+      <rect class="cls-6" x="49" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="14" y="60" width="1" height="1"/>
+      <polygon class="cls-6" points="15 55 15 54 14 54 13 54 13 55 14 55 15 55"/>
+      <rect class="cls-6" x="14" y="58" width="1" height="1"/>
+      <polygon class="cls-6" points="40 9 39 9 39 10 40 10 41 10 41 9 40 9"/>
+      <rect class="cls-6" x="41" y="6" width="1" height="1"/>
+      <polygon class="cls-6" points="12 58 12 59 13 59 13 58 13 57 12 57 11 57 11 58 12 58"/>
+      <polygon class="cls-6" points="14 57 15 57 15 56 14 56 13 56 13 57 14 57"/>
+      <rect class="cls-6" x="39" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="73" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="65" y="6" width="1" height="1"/>
+      <polygon class="cls-6" points="25 12 25 11 24 11 23 11 23 12 24 12 25 12"/>
+      <rect class="cls-6" x="8" y="64" width="1" height="1"/>
+      <rect class="cls-6" x="10" y="64" width="1" height="1"/>
+      <rect class="cls-6" x="10" y="62" width="1" height="1"/>
+      <rect class="cls-6" x="6" y="70" width="1" height="1"/>
+      <rect class="cls-6" x="64" y="7" width="1" height="1"/>
+      <rect class="cls-6" x="7" y="67" width="1" height="1"/>
+      <rect class="cls-6" x="11" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="71" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="9" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="69" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="72" y="7" width="1" height="1"/>
+      <rect class="cls-6" x="51" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="12" y="62" width="1" height="1"/>
+      <polygon class="cls-6" points="63 7 62 7 62 8 61 8 61 9 62 9 63 9 63 8 63 7"/>
+      <rect class="cls-6" x="59" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="11" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="63" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="67" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="11" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="7" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="57" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="7" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="13" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="12" y="64" width="1" height="1"/>
+      <rect class="cls-6" x="56" y="7" width="1" height="1"/>
+      <rect class="cls-6" x="10" y="66" width="1" height="1"/>
+      <rect class="cls-6" x="13" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="8" y="68" width="1" height="1"/>
+      <rect class="cls-6" x="60" y="7" width="1" height="1"/>
+      <rect class="cls-6" x="61" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="9" y="63" width="1" height="1"/>
+      <polygon class="cls-6" points="5 62 5 61 4 61 3 61 3 62 4 62 5 62"/>
+      <rect class="cls-6" x="35" y="6" width="1" height="1"/>
+      <polygon class="cls-6" points="6 61 7 61 7 60 6 60 5 60 5 61 6 61"/>
+      <polygon class="cls-6" points="8 60 9 60 9 59 8 59 7 59 7 60 8 60"/>
+      <rect class="cls-6" x="64" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="24" y="7" width="1" height="1"/>
+      <rect class="cls-6" x="32" y="7" width="1" height="1"/>
+      <rect class="cls-6" x="25" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="28" y="7" width="1" height="1"/>
+      <polygon class="cls-6" points="10 57 11 57 11 56 10 56 9 56 9 57 10 57"/>
+      <rect class="cls-6" x="27" y="6" width="1" height="1"/>
+      <polygon class="cls-6" points="5 64 5 63 4 63 3 63 3 64 4 64 5 64"/>
+      <polygon class="cls-6" points="31 7 30 7 30 8 29 8 29 9 30 9 31 9 31 8 31 7"/>
+      <polygon class="cls-6" points="9 58 9 57 8 57 7 57 7 58 8 58 9 58"/>
+      <rect class="cls-6" x="33" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="29" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="31" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="22" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="20" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="24" y="65" width="1" height="1"/>
+      <polygon class="cls-6" points="23 9 23 10 24 10 25 10 25 9 24 9 23 9"/>
+      <rect class="cls-6" x="26" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="30" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="28" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="62" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="18" y="65" width="1" height="1"/>
+      <polygon class="cls-6" points="4 67 5 67 5 66 5 65 4 65 3 65 3 66 4 66 4 67"/>
+      <polygon class="cls-6" points="7 65 7 64 6 64 5 64 5 65 6 65 7 65"/>
+      <rect class="cls-6" x="23" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="3" y="71" width="1" height="1"/>
+      <rect class="cls-6" x="21" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="3" y="69" width="1" height="1"/>
+      <rect class="cls-6" x="3" y="67" width="1" height="1"/>
+      <rect class="cls-6" x="4" y="76" width="1" height="1"/>
+      <polygon class="cls-6" points="47 7 46 7 46 8 45 8 45 9 46 9 47 9 47 8 47 7"/>
+      <rect class="cls-6" x="6" y="74" width="1" height="1"/>
+      <rect class="cls-6" x="8" y="72" width="1" height="1"/>
+      <rect class="cls-6" x="40" y="7" width="1" height="1"/>
+      <polygon class="cls-6" points="43 7 42 7 42 8 41 8 41 9 42 9 43 9 43 8 43 7"/>
+      <rect class="cls-6" x="4" y="74" width="1" height="1"/>
+      <rect class="cls-6" x="52" y="7" width="1" height="1"/>
+      <rect class="cls-6" x="5" y="67" width="1" height="1"/>
+      <rect class="cls-6" x="10" y="70" width="1" height="1"/>
+      <rect class="cls-6" x="53" y="6" width="1" height="1"/>
+      <polygon class="cls-6" points="12 56 13 56 13 55 12 55 11 55 11 56 12 56"/>
+      <polygon class="cls-6" points="51 7 50 7 50 8 49 8 49 9 50 9 51 9 51 8 51 7"/>
+      <rect class="cls-6" x="4" y="72" width="1" height="1"/>
+      <rect class="cls-6" x="4" y="70" width="1" height="1"/>
+      <rect class="cls-6" x="4" y="68" width="1" height="1"/>
+      <polygon class="cls-6" points="14 53 15 53 15 52 14 52 13 52 13 53 14 53"/>
+      <rect class="cls-6" x="15" y="51" width="1" height="1"/>
+      <rect class="cls-6" x="37" y="6" width="1" height="1"/>
+      <polygon class="cls-6" points="34 7 34 8 33 8 33 9 34 9 35 9 35 8 35 7 34 7"/>
+      <rect class="cls-6" x="55" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="36" y="7" width="1" height="1"/>
+      <polygon class="cls-6" points="13 54 13 53 12 53 11 53 11 54 12 54 13 54"/>
+      <rect class="cls-6" x="15" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="15" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="14" y="66" width="1" height="1"/>
+      <rect class="cls-6" x="15" y="53" width="1" height="1"/>
+      <rect class="cls-6" x="44" y="7" width="1" height="1"/>
+      <rect class="cls-6" x="15" y="55" width="1" height="1"/>
+      <rect class="cls-6" x="12" y="68" width="1" height="1"/>
+      <rect class="cls-6" x="48" y="7" width="1" height="1"/>
+      <rect class="cls-6" x="8" y="66" width="1" height="1"/>
+      <rect class="cls-6" x="68" y="11" width="1" height="1"/>
+      <polygon class="cls-6" points="55 9 55 10 56 10 57 10 57 9 56 9 55 9"/>
+      <polygon class="cls-6" points="59 8 59 7 58 7 58 8 57 8 57 9 58 9 59 9 59 8"/>
+      <polygon class="cls-6" points="67 7 66 7 66 8 65 8 65 9 66 9 67 9 67 8 67 7"/>
+      <rect class="cls-6" x="68" y="9" width="1" height="1"/>
+      <polygon class="cls-6" points="77 12 77 11 76 11 75 11 75 12 76 12 77 12"/>
+      <polygon class="cls-6" points="72 11 71 11 71 12 72 12 73 12 73 11 72 11"/>
+      <polygon class="cls-6" points="55 11 55 12 56 12 57 12 57 11 56 11 55 11"/>
+      <polygon class="cls-6" points="75 9 75 10 76 10 77 10 77 9 76 9 75 9"/>
+      <rect class="cls-6" x="75" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="70" y="10" width="1" height="1"/>
+      <rect class="cls-6" x="76" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="73" y="4" width="1" height="1"/>
+      <polygon class="cls-6" points="74 10 73 10 73 11 74 11 75 11 75 10 74 10"/>
+      <rect class="cls-6" x="76" y="7" width="1" height="1"/>
+      <polygon class="cls-6" points="39 13 39 12.93 37 12.93 37 13 38 13 39 13"/>
+      <polygon class="cls-6" points="54 13 55 13 55 12.93 53 12.93 53 13 54 13"/>
+      <polygon class="cls-6" points="39 12 38 12 37 12 37 12.07 39 12.07 39 12"/>
+      <polygon class="cls-6" points="50 13 51 13 51 12.93 49 12.93 49 13 50 13"/>
+      <rect class="cls-6" x="71" y="4" width="1" height="1"/>
+      <polygon class="cls-6" points="40 12 41 12 41 11 40 11 39 11 39 12 40 12"/>
+      <rect class="cls-6" x="77" y="12" width="1" height="1"/>
+      <rect class="cls-6" x="32" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="72" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="74" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="77" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="77" y="8" width="1" height="1"/>
+      <polygon class="cls-6" points="46 13 47 13 47 12.93 45 12.93 45 13 46 13"/>
+      <rect class="cls-6" x="77" y="10" width="1" height="1"/>
+      <rect class="cls-6" x="76" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="77" y="4" width="1" height="1"/>
+      <polygon class="cls-6" points="42 13 43 13 43 12.93 41 12.93 41 13 42 13"/>
+      <rect class="cls-6" x="35" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="23" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="25" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="29" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="27" y="4" width="1" height="1"/>
+      <polygon class="cls-6" points="44 12 45 12 45 11 44 11 43 11 43 12 44 12"/>
+      <rect class="cls-6" x="33" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="31" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="25" y="12" width="1" height="1"/>
+      <polygon class="cls-6" points="21 10 21 9 20 9 19 9 19 10 20 10 21 10"/>
+      <polygon class="cls-6" points="20 11 19 11 19 12 20 12 21 12 21 11 20 11"/>
+      <rect class="cls-6" x="37" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="18" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="19" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="19" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="21" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="67" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="59" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="57" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="61" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="65" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="63" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="69" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="55" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="43" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="53" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="39" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="41" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="45" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="51" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="49" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="47" y="4" width="1" height="1"/>
+      <polygon class="cls-6" points="46 12 45 12 45 12.07 47 12.07 47 12 46 12"/>
+      <polygon class="cls-6" points="11 7 11 6 10 6 9 6 9 7 10 7 11 7"/>
+      <rect class="cls-6" x="56" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="54" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="40" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="52" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="62" y="5" width="1" height="1"/>
+      <polygon class="cls-6" points="13 8 13 7 12 7 11 7 11 8 12 8 13 8"/>
+      <rect class="cls-6" x="64" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="60" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="44" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="42" y="5" width="1" height="1"/>
+      <polygon class="cls-6" points="9 4 9 3 8 3 7 3 7 4 8 4 9 4"/>
+      <rect class="cls-6" x="50" y="5" width="1" height="1"/>
+      <polygon class="cls-6" points="48 12 49 12 49 11 48 11 47 11 47 12 48 12"/>
+      <rect class="cls-6" x="48" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="46" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="58" y="5" width="1" height="1"/>
+      <polygon class="cls-6" points="72 9 71 9 71 10 72 10 73 10 73 9 72 9"/>
+      <rect class="cls-6" x="15" y="13" width="1" height="1"/>
+      <polygon class="cls-6" points="75 7 74 7 74 8 73 8 73 9 74 9 75 9 75 8 75 7"/>
+      <rect class="cls-6" x="15" y="11" width="1" height="1"/>
+      <polygon class="cls-6" points="71 9 71 8 71 7 70 7 70 8 69 8 69 9 70 9 71 9"/>
+      <rect class="cls-6" x="15" y="49" width="1" height="1"/>
+      <rect class="cls-6" x="12" y="60" width="1" height="1"/>
+      <polygon class="cls-6" points="15 11 15 10 14 10 13 10 13 11 14 11 15 11"/>
+      <rect class="cls-6" x="70" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="68" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="66" y="5" width="1" height="1"/>
+      <polygon class="cls-6" points="13 10 13 9 12 9 11 9 11 10 12 10 13 10"/>
+      <rect class="cls-6" x="75" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="74" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="72" y="5" width="1" height="1"/>
+      <polygon class="cls-6" points="9 6 9 5 8 5 7 5 7 6 8 6 9 6"/>
+      <polygon class="cls-6" points="15 7 15 6 14 6 13 6 13 7 14 7 15 7"/>
+      <rect class="cls-6" x="11" y="3" width="1" height="1"/>
+      <polygon class="cls-6" points="27 7 26 7 26 8 25 8 25 9 26 9 27 9 27 8 27 7"/>
+      <polygon class="cls-6" points="22 10 21 10 21 11 22 11 23 11 23 10 22 10"/>
+      <polygon class="cls-6" points="15 9 15 8 14 8 13 8 13 9 14 9 15 9"/>
+      <polygon class="cls-6" points="23 9 23 8 23 7 22 7 22 8 21 8 21 9 22 9 23 9"/>
+      <polygon class="cls-6" points="11 5 11 4 10 4 9 4 9 5 10 5 11 5"/>
+      <polygon class="cls-6" points="50 12 49 12 49 12.07 51 12.07 51 12 50 12"/>
+      <polygon class="cls-6" points="39 9 39 8 39 7 38 7 38 8 37 8 37 9 38 9 39 9"/>
+      <rect class="cls-6" x="70" y="3" width="1" height="1"/>
+      <polygon class="cls-6" points="52 12 53 12 53 11 52 11 51 11 51 12 52 12"/>
+      <polygon class="cls-6" points="53 12 53 12.07 55 12.07 55 12 54 12 53 12"/>
+      <rect class="cls-6" x="20" y="7" width="1" height="1"/>
+      <polygon class="cls-6" points="42 12 41 12 41 12.07 43 12.07 43 12 42 12"/>
+      <rect class="cls-6" x="68" y="7" width="1" height="1"/>
+      <polygon class="cls-6" points="13 6 13 5 13 4 12 4 12 5 11 5 11 6 12 6 13 6"/>
+      <rect class="cls-6" x="34" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="32" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="14" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="13" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="38" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="36" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="30" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="15" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="22" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="15" y="7" width="1" height="1"/>
+      <rect class="cls-6" x="20" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="26" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="15" y="9" width="1" height="1"/>
+      <rect class="cls-6" x="24" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="28" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="69" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="66" y="55" width="1" height="1"/>
+      <rect class="cls-6" x="70" y="55" width="1" height="1"/>
+      <rect class="cls-6" x="62" y="55" width="1" height="1"/>
+      <polygon class="cls-6" points="41 53 42 53 42 52 41 52 40 52 40 53 41 53"/>
+      <rect class="cls-6" x="46" y="55" width="1" height="1"/>
+      <polygon class="cls-6" points="60 56 61 56 61 55 62 55 62 54 61 54 60 54 60 55 60 56"/>
+      <polygon class="cls-6" points="64 56 65 56 65 55 66 55 66 54 65 54 64 54 64 55 64 56"/>
+      <polygon class="cls-6" points="68 56 69 56 69 55 70 55 70 54 69 54 68 54 68 55 68 56"/>
+      <polygon class="cls-6" points="45 53 46 53 46 52 45 52 44 52 44 53 45 53"/>
+      <rect class="cls-6" x="54" y="55" width="1" height="1"/>
+      <rect class="cls-6" x="50" y="55" width="1" height="1"/>
+      <polygon class="cls-6" points="22 53 22 52 21 52 20 52 20 53 21 53 22 53"/>
+      <polygon class="cls-6" points="20 56 21 56 21 55 22 55 22 54 21 54 20 54 20 55 20 56"/>
+      <polygon class="cls-6" points="33 53 34 53 34 52 33 52 32 52 32 53 33 53"/>
+      <rect class="cls-6" x="58" y="55" width="1" height="1"/>
+      <polygon class="cls-6" points="25 53 26 53 26 52 25 52 24 52 24 53 25 53"/>
+      <polygon class="cls-6" points="29 53 30 53 30 52 29 52 28 52 28 53 29 53"/>
+      <polygon class="cls-6" points="37 53 38 53 38 52 37 52 36 52 36 53 37 53"/>
+      <polygon class="cls-6" points="28 56 29 56 29 55 30 55 30 54 29 54 28 54 28 55 28 56"/>
+      <polygon class="cls-6" points="24 56 25 56 25 55 26 55 26 54 25 54 24 54 24 55 24 56"/>
+      <polygon class="cls-6" points="61 53 62 53 62 52 61 52 60 52 60 53 61 53"/>
+      <polygon class="cls-6" points="32 56 33 56 33 55 34 55 34 54 33 54 32 54 32 55 32 56"/>
+      <polygon class="cls-6" points="56 56 57 56 57 55 58 55 58 54 57 54 56 54 56 55 56 56"/>
+      <rect class="cls-6" x="25" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="23" y="56" width="1" height="1"/>
+      <polygon class="cls-6" points="65 53 66 53 66 52 65 52 64 52 64 53 65 53"/>
+      <polygon class="cls-6" points="36 56 37 56 37 55 38 55 38 54 37 54 36 54 36 55 36 56"/>
+      <polygon class="cls-6" points="52 56 53 56 53 55 54 55 54 54 53 54 52 54 52 55 52 56"/>
+      <polygon class="cls-6" points="57 53 58 53 58 52 57 52 56 52 56 53 57 53"/>
+      <polygon class="cls-6" points="49 53 50 53 50 52 49 52 48 52 48 53 49 53"/>
+      <polygon class="cls-6" points="48 56 49 56 49 55 50 55 50 54 49 54 48 54 48 55 48 56"/>
+      <polygon class="cls-6" points="40 56 41 56 41 55 42 55 42 54 41 54 40 54 40 55 40 56"/>
+      <polygon class="cls-6" points="44 56 45 56 45 55 46 55 46 54 45 54 44 54 44 55 44 56"/>
+      <polygon class="cls-6" points="53 53 54 53 54 52 53 52 52 52 52 53 53 53"/>
+      <rect class="cls-6" x="31" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="43" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="39" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="37" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="41" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="66" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="70" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="33" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="35" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="68" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="53" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="62" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="42" y="55" width="1" height="1"/>
+      <rect class="cls-6" x="51" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="60" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="64" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="47" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="49" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="45" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="21" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="30" y="55" width="1" height="1"/>
+      <rect class="cls-6" x="26" y="55" width="1" height="1"/>
+      <rect class="cls-6" x="23" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="34" y="55" width="1" height="1"/>
+      <rect class="cls-6" x="19" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="19" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="38" y="55" width="1" height="1"/>
+      <rect class="cls-6" x="74" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="72" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="29" y="58" width="1" height="1"/>
+      <polygon class="cls-6" points="69 53 70 53 70 52 69 52 68 52 68 53 69 53"/>
+      <rect class="cls-6" x="76" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="73" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="27" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="25" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="66" y="57" width="1" height="1"/>
+      <polygon class="cls-6" points="67 54 68 54 68 53 67 53 66 53 66 54 67 54"/>
+      <polygon class="cls-6" points="71 54 72 54 72 53 71 53 70 53 70 54 71 54"/>
+      <rect class="cls-6" x="48" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="38" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="34" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="32" y="57" width="1" height="1"/>
+      <polygon class="cls-6" points="63 54 64 54 64 53 63 53 62 53 62 54 63 54"/>
+      <rect class="cls-6" x="71" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="46" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="65" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="44" y="57" width="1" height="1"/>
+      <polygon class="cls-6" points="59 54 60 54 60 53 59 53 58 53 58 54 59 54"/>
+      <rect class="cls-6" x="40" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="63" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="69" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="42" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="67" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="36" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="21" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="20" y="57" width="1" height="1"/>
+      <polygon class="cls-6" points="35 54 36 54 36 53 35 53 34 53 34 54 35 54"/>
+      <rect class="cls-6" x="22" y="57" width="1" height="1"/>
+      <polygon class="cls-6" points="39 54 40 54 40 53 39 53 38 53 38 54 39 54"/>
+      <polygon class="cls-6" points="31 54 32 54 32 53 31 53 30 53 30 54 31 54"/>
+      <polygon class="cls-6" points="27 54 28 54 28 53 27 53 26 53 26 54 27 54"/>
+      <rect class="cls-6" x="22" y="55" width="1" height="1"/>
+      <rect class="cls-6" x="24" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="28" y="57" width="1" height="1"/>
+      <polygon class="cls-6" points="51 54 52 54 52 53 51 53 50 53 50 54 51 54"/>
+      <polygon class="cls-6" points="43 54 44 54 44 53 43 53 42 53 42 54 43 54"/>
+      <polygon class="cls-6" points="55 54 56 54 56 53 55 53 54 53 54 54 55 54"/>
+      <rect class="cls-6" x="30" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="34" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="26" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="56" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="39" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="72" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="70" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="74" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="37" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="55" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="43" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="68" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="41" y="56" width="1" height="1"/>
+      <polygon class="cls-6" points="73 53 74 53 74 52 73 52 72 52 72 53 73 53"/>
+      <rect class="cls-6" x="29" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="31" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="74" y="55" width="1" height="1"/>
+      <rect class="cls-6" x="35" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="33" y="56" width="1" height="1"/>
+      <polygon class="cls-6" points="72 54 72 55 72 56 73 56 73 55 74 55 74 54 73 54 72 54"/>
+      <rect class="cls-6" x="60" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="57" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="54" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="53" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="27" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="55" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="52" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="50" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="45" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="59" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="47" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="64" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="62" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="58" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="51" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="61" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="49" y="56" width="1" height="1"/>
+      <polygon class="cls-6" points="47 54 48 54 48 53 47 53 46 53 46 54 47 54"/>
+      <rect class="cls-6" x="56" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="42" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="36" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="40" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="38" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="20" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="18" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="32" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="74" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="52" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="76" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="54" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="30" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="50" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="44" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="46" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="48" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="34" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="18" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="22" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="30" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="18" y="55" width="1" height="1"/>
+      <polygon class="cls-6" points="20 54 20 53 19 53 18 53 18 54 19 54 20 54"/>
+      <polygon class="cls-6" points="20 52 20 51 19 51 18 51 18 52 19 52 20 52"/>
+      <rect class="cls-6" x="32" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="20" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="18" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="24" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="58" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="26" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="28" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="26" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="28" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="24" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="58" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="50" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="54" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="52" y="65" width="1" height="1"/>
+      <polygon class="cls-6" points="23 52 24 52 24 51 23 51 22 51 22 52 23 52"/>
+      <rect class="cls-6" x="77" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="60" y="65" width="1" height="1"/>
+      <polygon class="cls-6" points="76 54 76 55 76 56 77 56 77 55 78 55 78 54 77 54 76 54"/>
+      <polygon class="cls-6" points="76 52 76 53 77 53 78 53 78 52 77 52 76 52"/>
+      <rect class="cls-6" x="56" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="48" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="38" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="36" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="40" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="42" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="46" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="44" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="77" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="68" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="66" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="62" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="64" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="64" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="60" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="58" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="70" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="72" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="74" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="76" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="72" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="68" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="62" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="70" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="66" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="22" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="42" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="40" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="38" y="61" width="1" height="1"/>
+      <polygon class="cls-6" points="75 52 76 52 76 51 75 51 74 51 74 52 75 52"/>
+      <rect class="cls-6" x="36" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="46" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="44" y="61" width="1" height="1"/>
+      <polygon class="cls-6" points="74 53 74 54 75 54 76 54 76 53 75 53 74 53"/>
+      <polygon class="cls-6" points="71 52 72 52 72 51 71 51 70 51 70 52 71 52"/>
+      <rect class="cls-6" x="22" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="24" y="61" width="1" height="1"/>
+      <polygon class="cls-6" points="67 52 68 52 68 51 67 51 66 51 66 52 67 52"/>
+      <rect class="cls-6" x="28" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="34" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="32" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="30" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="34" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="26" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="63" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="61" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="65" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="54" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="59" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="67" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="57" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="56" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="60" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="75" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="50" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="76" y="57" width="1" height="1"/>
+      <rect class="cls-6" x="48" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="73" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="52" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="71" y="58" width="1" height="1"/>
+      <rect class="cls-6" x="75" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="46" y="63" width="1" height="1"/>
+      <polygon class="cls-6" points="35 52 36 52 36 51 35 51 34 51 34 52 35 52"/>
+      <rect class="cls-6" x="52" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="48" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="50" y="63" width="1" height="1"/>
+      <polygon class="cls-6" points="43 52 44 52 44 51 43 51 42 51 42 52 43 52"/>
+      <rect class="cls-6" x="54" y="63" width="1" height="1"/>
+      <polygon class="cls-6" points="39 52 40 52 40 51 39 51 38 51 38 52 39 52"/>
+      <polygon class="cls-6" points="31 52 32 52 32 51 31 51 30 51 30 52 31 52"/>
+      <rect class="cls-6" x="38" y="63" width="1" height="1"/>
+      <polygon class="cls-6" points="27 52 28 52 28 51 27 51 26 51 26 52 27 52"/>
+      <rect class="cls-6" x="36" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="20" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="44" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="56" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="42" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="40" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="70" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="74" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="72" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="68" y="63" width="1" height="1"/>
+      <polygon class="cls-6" points="59 52 60 52 60 51 59 51 58 51 58 52 59 52"/>
+      <rect class="cls-6" x="18" y="61" width="1" height="1"/>
+      <polygon class="cls-6" points="63 52 64 52 64 51 63 51 62 51 62 52 63 52"/>
+      <rect class="cls-6" x="76" y="63" width="1" height="1"/>
+      <polygon class="cls-6" points="51 52 52 52 52 51 51 51 50 51 50 52 51 52"/>
+      <rect class="cls-6" x="66" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="60" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="62" y="63" width="1" height="1"/>
+      <polygon class="cls-6" points="47 52 48 52 48 51 47 51 46 51 46 52 47 52"/>
+      <rect class="cls-6" x="64" y="63" width="1" height="1"/>
+      <polygon class="cls-6" points="55 52 56 52 56 51 55 51 54 51 54 52 55 52"/>
+      <rect class="cls-6" x="58" y="63" width="1" height="1"/>
+      <rect class="cls-6" x="2" y="68" width="1" height="1"/>
+      <polygon class="cls-6" points="80 4 80 3 81 3 81 2 79 2 79 4 80 4"/>
+      <rect class="cls-6" x="82" y="2" width="1" height="1"/>
+      <rect class="cls-6" x="28" y="3" width="1" height="1"/>
+      <polygon class="cls-6" points="15 3 15 4 16 4 16 2 14 2 14 3 15 3"/>
+      <rect class="cls-6" x="94" y="73" width="1" height="1"/>
+      <rect class="cls-6" x="95" y="72" width="1" height="1"/>
+      <rect class="cls-6" x="94" y="71" width="1" height="1"/>
+      <rect class="cls-6" x="30" y="3" width="1" height="1"/>
+      <polygon class="cls-6" points="85 3 86 3 86 2 84 2 84 3 85 3"/>
+      <polygon class="cls-6" points="87 3 86 3 86 4 87 4 88 4 88 3 87 3"/>
+      <rect class="cls-6" x="22" y="3" width="1" height="1"/>
+      <polygon class="cls-6" points="95 70 95 71 96 71 97 71 97 70 96 70 95 70"/>
+      <rect class="cls-6" x="24" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="26" y="3" width="1" height="1"/>
+      <polygon class="cls-6" points="83 5 83 4 82 4 82 5 82 6 83 6 84 6 84 5 83 5"/>
+      <polygon class="cls-6" points="89 3 90 3 90 2 88 2 88 3 89 3"/>
+      <rect class="cls-6" x="94" y="69" width="1" height="1"/>
+      <rect class="cls-6" x="2" y="60" width="1" height="1"/>
+      <rect class="cls-6" x="95" y="78" width="1" height="1"/>
+      <rect class="cls-6" x="95" y="80" width="1" height="1"/>
+      <rect class="cls-6" x="2" y="64" width="1" height="1"/>
+      <rect class="cls-6" x="2" y="62" width="1" height="1"/>
+      <rect class="cls-6" x="34" y="3" width="1" height="1"/>
+      <polygon class="cls-6" points="86 5 86 6 87 6 88 6 88 5 87 5 86 5"/>
+      <rect class="cls-6" x="2" y="2" width="1" height="1"/>
+      <rect class="cls-6" x="32" y="3" width="1" height="1"/>
+      <polygon class="cls-6" points="10 3 11 3 11 2 9 2 9 3 10 3"/>
+      <polygon class="cls-6" points="6 3 7 3 7 2 5 2 5 3 6 3"/>
+      <path class="cls-6" d="M3,60h2v-1h2v-1h-1v-1h1v-1h-1v-1h1v1h2v-1h2v-1h-1v-1h1v-1h-1v-1h1v1h2v-1h2v-1h-1v-1h1v-1h-1v-1h1v1h1v-10h-1v-1h1v-11h-1v-1h1v-10h-1v1h-1v-1h1v-1h-1v-1h1v-1h-2v-1h-2v1h-1v-1h1v-1h-1v-1h1v-1h-2v-1h-2v1h-1v-1h1v-1h-1v-1h1v-1h-2v-1h-2v1h-1v2h1v1h-1v49h1v1h-1v2h1v1ZM13,43v-1h1v1h-1ZM15,45h-1v-1h1v1ZM14,18h1v1h-1v-1ZM14,20v1h-1v-1h1ZM12,13h1v1h-1v-1ZM12,16h1v1h-1v-1ZM12,22h1v1h-1v-1ZM12,40h1v1h-1v-1ZM12,46h1v1h-1v-1ZM12,49h1v1h-1v-1ZM7,49v-1h1v1h-1ZM9,54h-1v-1h1v1ZM9,51h-1v-1h1v1ZM9,44v-1h1v1h-1ZM11,49h-1v-1h1v1ZM11,46h-1v-1h1v1ZM10,14h1v1h-1v-1ZM10,17h1v1h-1v-1ZM10,19v1h-1v-1h1ZM8,9h1v1h-1v-1ZM8,12h1v1h-1v-1ZM8,14v1h-1v-1h1ZM6,10h1v1h-1v-1ZM6,16h1v1h-1v-1ZM6,46h1v1h-1v-1ZM6,52h1v1h-1v-1ZM5,58h-1v-1h1v1ZM5,55h-1v-1h1v1ZM5,52h-1v-1h1v1ZM4,5h1v1h-1v-1ZM4,8h1v1h-1v-1ZM4,11h1v1h-1v-1ZM3,13h1v1h-1v-1ZM3,49h1v1h-1v-1Z"/>
+      <rect class="cls-6" x="95" y="76" width="1" height="1"/>
+      <rect class="cls-6" x="95" y="74" width="1" height="1"/>
+      <rect class="cls-6" x="12" y="2" width="1" height="1"/>
+      <polygon class="cls-6" points="81 10 80 10 80 11 81 11 82 11 82 10 81 10"/>
+      <rect class="cls-6" x="79" y="11" width="1" height="1"/>
+      <rect class="cls-6" x="79" y="13" width="1" height="1"/>
+      <rect class="cls-6" x="79" y="9" width="1" height="1"/>
+      <rect class="cls-6" x="94" y="63" width="1" height="1"/>
+      <polygon class="cls-6" points="19 11 19 10 18 10 17 10 17 11 18 11 19 11"/>
+      <rect class="cls-6" x="96" y="73" width="1" height="1"/>
+      <polygon class="cls-6" points="84 4 84 5 85 5 86 5 86 4 85 4 84 4"/>
+      <rect class="cls-6" x="80" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="83" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="2" y="66" width="1" height="1"/>
+      <rect class="cls-6" x="79" y="5" width="1" height="1"/>
+      <rect class="cls-6" x="94" y="65" width="1" height="1"/>
+      <rect class="cls-6" x="79" y="7" width="1" height="1"/>
+      <rect class="cls-6" x="96" y="75" width="1" height="1"/>
+      <rect class="cls-6" x="17" y="52" width="1" height="1"/>
+      <rect class="cls-6" x="82" y="61" width="1" height="1"/>
+      <rect class="cls-6" x="18" y="3" width="1" height="1"/>
+      <polygon class="cls-6" points="19 9 19 8 19 7 18 7 18 8 17 8 17 9 18 9 19 9"/>
+      <rect class="cls-6" x="17" y="56" width="1" height="1"/>
+      <rect class="cls-6" x="17" y="54" width="1" height="1"/>
+      <rect class="cls-6" x="17" y="58" width="1" height="1"/>
+      <polygon class="cls-6" points="85 6 84 6 84 7 85 7 86 7 86 6 85 6"/>
+      <rect class="cls-6" x="20" y="3" width="1" height="1"/>
+      <polygon class="cls-6" points="83 7 82 7 82 8 83 8 84 8 84 7 83 7"/>
+      <rect class="cls-6" x="81" y="64" width="1" height="1"/>
+      <rect class="cls-6" x="80" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="81" y="66" width="1" height="1"/>
+      <rect class="cls-6" x="17" y="6" width="1" height="1"/>
+      <rect class="cls-6" x="81" y="58" width="1" height="1"/>
+      <polygon class="cls-6" points="82 9 82 10 83 10 84 10 84 9 83 9 82 9"/>
+      <rect class="cls-6" x="81" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="17" y="4" width="1" height="1"/>
+      <rect class="cls-6" x="83" y="55" width="1" height="1"/>
+      <polygon class="cls-6" points="95 66 95 67 96 67 97 67 97 66 96 66 95 66"/>
+      <rect class="cls-6" x="42" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="83" y="68" width="1" height="1"/>
+      <rect class="cls-6" x="54" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="97" y="74" width="1" height="1"/>
+      <polygon class="cls-6" points="83 53 83 52 82 52 81 52 81 53 82 53 83 53"/>
+      <rect class="cls-6" x="97" y="82" width="1" height="1"/>
+      <rect class="cls-6" x="2" y="78" width="1" height="1"/>
+      <polygon class="cls-6" points="95 68 95 69 96 69 97 69 97 68 96 68 95 68"/>
+      <polygon class="cls-6" points="97 72 97 73 98 73 98 71 97 71 97 72"/>
+      <rect class="cls-6" x="97" y="69" width="1" height="1"/>
+      <rect class="cls-6" x="97" y="80" width="1" height="1"/>
+      <polygon class="cls-6" points="80 8 80 9 81 9 82 9 82 8 81 8 80 8"/>
+      <polygon class="cls-6" points="24 54 24 53 23 53 22 53 22 54 23 54 24 54"/>
+      <rect class="cls-6" x="48" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="52" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="50" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="56" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="81" y="62" width="1" height="1"/>
+      <rect class="cls-6" x="97" y="78" width="1" height="1"/>
+      <rect class="cls-6" x="97" y="76" width="1" height="1"/>
+      <rect class="cls-6" x="46" y="3" width="1" height="1"/>
+      <polygon class="cls-6" points="81 6 80 6 80 7 81 7 82 7 82 6 81 6"/>
+      <rect class="cls-6" x="44" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="83" y="53" width="1" height="1"/>
+      <rect class="cls-6" x="97" y="67" width="1" height="1"/>
+      <rect class="cls-6" x="2" y="76" width="1" height="1"/>
+      <rect class="cls-6" x="79" y="62" width="1" height="1"/>
+      <polygon class="cls-6" points="83 55 83 54 82 54 81 54 81 55 82 55 83 55"/>
+      <rect class="cls-6" x="2" y="74" width="1" height="1"/>
+      <rect class="cls-6" x="79" y="64" width="1" height="1"/>
+      <rect class="cls-6" x="17" y="50" width="1" height="1"/>
+      <rect class="cls-6" x="94" y="67" width="1" height="1"/>
+      <rect class="cls-6" x="36" y="3" width="1" height="1"/>
+      <polygon class="cls-6" points="83 57 83 56 82 56 81 56 81 57 82 57 83 57"/>
+      <rect class="cls-6" x="2" y="70" width="1" height="1"/>
+      <rect class="cls-6" x="2" y="72" width="1" height="1"/>
+      <rect class="cls-6" x="40" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="83" y="62" width="1" height="1"/>
+      <rect class="cls-6" x="58" y="3" width="1" height="1"/>
+      <rect class="cls-6" x="83" y="60" width="1" height="1"/>
+      <rect class="cls-6" x="83" y="64" width="1" height="1"/>
+      <path class="cls-6" d="M97,2v1h-1v-1h-4v1h1v1h-1v-1h-2v1h-2v1h1v1h-1v1h1v1h-1v-1h-2v1h-2v1h1v1h-1v1h1v1h-1v-1h-2v1h-2v1h1v1h-1v1h1v1h-1v-1h-1v10h1v1h-1v33h1v-1h1v-1h-1v-1h1v-1h-1v-1h1v-1h-1v-1h1v-1h-1v-1h1v-1h-1v-1h1v-1h1v1h-1v1h1v1h-1v1h2v1h1v-2h-1v-1h1v-2h-1v-1h1v-5h-1v-1h1v-16h2v-1h3v-1h3v-1h2v41h1v-1h1v1h-1v1h1v1h-1v1h2v1h1v-2h-1v-1h1v-2h-1v-1h1V8h-1v-1h1V2h-1ZM82,20v1h-1v-1h1ZM80,18h1v1h-1v-1ZM80,38v-1h1v1h-1ZM82,45h-1v-1h1v1ZM83,43h-1v-1h1v1ZM83,23h-1v-1h1v1ZM83,17h-1v-1h1v1ZM83,14h-1v-1h1v1ZM86,9h1v1h-1v-1ZM84,14h1v1h-1v-1ZM84,17h1v1h-1v-1ZM86,20h-1v-1h1v1ZM86,12h1v1h-1v-1ZM87,14h1v1h-1v-1ZM89,17h-1v-1h1v1ZM89,11h-1v-1h1v1ZM94,4h1v1h-1v-1ZM90,5h1v1h-1v-1ZM90,8h1v1h-1v-1ZM90,11h1v1h-1v-1ZM92,14h-1v-1h1v1ZM92,6h1v1h-1v-1ZM93,9v-1h1v1h-1ZM94,11v-1h1v1h-1ZM96,59h-1v-1h1v1ZM96,56h-1v-1h1v1ZM97,54h-1v-1h1v1ZM97,6h-1v-1h1v1Z"/>
+      <rect class="cls-6" x="83" y="66" width="1" height="1"/>
+      <rect class="cls-6" x="82" y="59" width="1" height="1"/>
+      <rect class="cls-6" x="79" y="60" width="1" height="1"/>
+      <rect class="cls-6" x="81" y="60" width="1" height="1"/>
+      <path class="cls-6" d="M18,50h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v1h1v-1h1v2h2v-1h-1v-1h1v-3h-1v-1h1v-3h-1v-1h1v-3h-1v-1h1v-11h-1v-1h1v-3h-1v-1h1v-3h-1v-1h1v-3h-1v-1h-1v1h-1v-2h-2v1h1v1h-1v-1h-1v1h-1v-2h-2v1h1v1h-1v-1h-1v2h1v1h-1v3h1v1h-1v5h-1v12h-1v6h1v1h-1v2h-3v-1h-1v1h-3v-1h-1v1h-3v-2h-1v-1h1v-3h-20v5h1v1h-3v-1h-1v1h-5v-1h-1v1h-3v-1h1v-5h-1v-1h1v-9h1v-5h1v-3h-1v-1h1v-3h-1v-1h1v-3h-1v-1h-1v1h-1v-2h-2v1h1v1h-1v-1h-1v1h-1v-2h-2v1h1v1h-1v3h1v1h-1v3h1v1h-1v3h1v1h-1v11h1v1h-1v3h1v1h-1v3h1v1h-1v3h1v1ZM69,48h-1v-1h1v1ZM69,46v-1h1v1h-1ZM71,48h-1v-1h1v1ZM75,24v-1h1v1h-1ZM76,39v1h-1v-1h1ZM75,20h-1v-1h1v1ZM75,43v1h-1v-1h1ZM74,37v1h-1v-1h1ZM73,26v-1h1v1h-1ZM74,41v1h-1v-1h1ZM74,22h-1v-1h1v1ZM73,20h-1v-1h1v1ZM73,43v1h-1v-1h1ZM71,40v-1h1v1h-1ZM72,24h-1v-1h1v1ZM71,20h-1v-1h1v1ZM71,43v1h-1v-1h1ZM71,46v-1h1v1h-1ZM73,48h-1v-1h1v1ZM73,46v-1h1v1h-1ZM75,48h-1v-1h1v1ZM75,46v-1h1v1h-1ZM77,48h-1v-1h1v1ZM77,44h-1v-1h1v1ZM77,20h-1v-1h1v1ZM76,15h1v1h-1v-1ZM76,17v1h-1v-1h1ZM74,15h1v1h-1v-1ZM74,17v1h-1v-1h1ZM72,15h1v1h-1v-1ZM72,17v1h-1v-1h1ZM70,15h1v1h-1v-1ZM69,17h1v1h-1v-1ZM69,21h1v1h-1v-1ZM69,25h1v1h-1v-1ZM69,37h1v1h-1v-1ZM69,41h1v1h-1v-1ZM69,43v1h-1v-1h1ZM67,39h1v1h-1v-1ZM67,45h1v1h-1v-1ZM66,47h1v1h-1v-1ZM64,47h1v1h-1v-1ZM62,47h1v1h-1v-1ZM60,47h1v1h-1v-1ZM58,47h1v1h-1v-1ZM56,47h1v1h-1v-1ZM37,46v-1h1v1h-1ZM39,48h-1v-1h1v1ZM41,48h-1v-1h1v1ZM41,46v-1h1v1h-1ZM43,48h-1v-1h1v1ZM45,48h-1v-1h1v1ZM45,46v-1h1v1h-1ZM47,48h-1v-1h1v1ZM49,48h-1v-1h1v1ZM49,46v-1h1v1h-1ZM51,48h-1v-1h1v1ZM53,48h-1v-1h1v1ZM53,46v-1h1v1h-1ZM55,47v1h-1v-1h1ZM53,41h1v1h-1v-1ZM52,43h1v1h-1v-1ZM52,45v1h-1v-1h1ZM51,44h-1v-1h1v1ZM49,41h1v1h-1v-1ZM48,43h1v1h-1v-1ZM48,45v1h-1v-1h1ZM47,44h-1v-1h1v1ZM45,41h1v1h-1v-1ZM44,43h1v1h-1v-1ZM44,45v1h-1v-1h1ZM43,44h-1v-1h1v1ZM41,41h1v1h-1v-1ZM40,43h1v1h-1v-1ZM40,45v1h-1v-1h1ZM39,44h-1v-1h1v1ZM37,41h1v1h-1v-1ZM36,43h1v1h-1v-1ZM36,47h1v1h-1v-1ZM34,47h1v1h-1v-1ZM32,47h1v1h-1v-1ZM30,47h1v1h-1v-1ZM28,47h1v1h-1v-1ZM26,47h1v1h-1v-1ZM24,47h1v1h-1v-1ZM19,46v-1h1v1h-1ZM21,38v-1h1v1h-1ZM22,41v1h-1v-1h1ZM21,26v-1h1v1h-1ZM21,22v-1h1v1h-1ZM21,20h-1v-1h1v1ZM21,43v1h-1v-1h1ZM20,24h-1v-1h1v1ZM20,39v1h-1v-1h1ZM21,48h-1v-1h1v1ZM21,46v-1h1v1h-1ZM23,48h-1v-1h1v1ZM23,44h-1v-1h1v1ZM22,20v-1h1v1h-1ZM24,24h-1v-1h1v1ZM25,20h-1v-1h1v1ZM24,15h1v1h-1v-1ZM24,17v1h-1v-1h1ZM22,15h1v1h-1v-1ZM22,17v1h-1v-1h1ZM20,15h1v1h-1v-1ZM20,17v1h-1v-1h1ZM18,15h1v1h-1v-1ZM18,19h1v1h-1v-1ZM18,43h1v1h-1v-1ZM18,47h1v1h-1v-1Z"/>
+      <polygon class="cls-6" points="83 59 84 59 84 57 83 57 83 58 83 59"/>
+      <polygon class="cls-2" points="82 4 82 6 80 6 80 5 81 5 81 4 82 4"/>
+      <rect class="cls-2" x="83" y="2" width="1" height="1"/>
+      <rect class="cls-2" x="82" y="3" width="1" height="1"/>
+      <rect class="cls-2" x="80" y="3" width="1" height="1"/>
+      <rect class="cls-2" x="79" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="83" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="80" y="7" width="2" height="1"/>
+      <rect class="cls-2" x="79" y="8" width="1" height="1"/>
+      <rect class="cls-2" x="84" y="3" width="2" height="1"/>
+      <rect class="cls-2" x="80" y="9" width="2" height="1"/>
+      <rect class="cls-2" x="82" y="8" width="2" height="1"/>
+      <rect class="cls-2" x="82" y="10" width="2" height="1"/>
+      <rect class="cls-2" x="80" y="11" width="2" height="1"/>
+      <rect class="cls-2" x="79" y="10" width="1" height="1"/>
+      <rect class="cls-2" x="79" y="12" width="1" height="1"/>
+      <rect class="cls-2" x="79" y="14" width="1" height="1"/>
+      <rect class="cls-2" x="90" y="2" width="2" height="1"/>
+      <rect class="cls-2" x="88" y="3" width="2" height="1"/>
+      <rect class="cls-2" x="86" y="2" width="2" height="1"/>
+      <rect class="cls-2" x="86" y="4" width="2" height="1"/>
+      <rect class="cls-2" x="84" y="5" width="2" height="1"/>
+      <rect class="cls-2" x="82" y="6" width="2" height="1"/>
+      <rect class="cls-2" x="86" y="6" width="2" height="1"/>
+      <rect class="cls-2" x="84" y="7" width="2" height="1"/>
+      <rect class="cls-2" x="80" y="13" width="1" height="1"/>
+      <rect class="cls-2" x="88" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="84" y="9" width="1" height="1"/>
+      <rect class="cls-2" x="81" y="2" width="1" height="1"/>
+      <rect class="cls-2" x="79" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="82" y="13" width="1" height="1"/>
+      <rect class="cls-2" x="80" y="15" width="1" height="1"/>
+      <rect class="cls-2" x="86" y="9" width="1" height="1"/>
+      <rect class="cls-2" x="92" y="3" width="1" height="1"/>
+      <rect class="cls-2" x="90" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="88" y="7" width="1" height="1"/>
+      <rect class="cls-2" x="84" y="11" width="1" height="1"/>
+      <rect class="cls-2" x="82" y="16" width="1" height="1"/>
+      <rect class="cls-2" x="80" y="18" width="1" height="1"/>
+      <rect class="cls-2" x="86" y="12" width="1" height="1"/>
+      <rect class="cls-2" x="92" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="94" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="96" y="2" width="1" height="1"/>
+      <rect class="cls-2" x="90" y="8" width="1" height="1"/>
+      <rect class="cls-2" x="88" y="10" width="1" height="1"/>
+      <rect class="cls-2" x="84" y="14" width="1" height="1"/>
+      <rect class="cls-2" x="90" y="11" width="1" height="1"/>
+      <rect class="cls-2" x="84" y="17" width="1" height="1"/>
+      <rect class="cls-2" x="81" y="20" width="1" height="1"/>
+      <rect class="cls-2" x="87" y="14" width="1" height="1"/>
+      <rect class="cls-2" x="82" y="22" width="1" height="1"/>
+      <rect class="cls-2" x="88" y="16" width="1" height="1"/>
+      <rect class="cls-2" x="79" y="25" width="1" height="1"/>
+      <rect class="cls-2" x="91" y="13" width="1" height="1"/>
+      <rect class="cls-2" x="93" y="8" width="1" height="1"/>
+      <rect class="cls-2" x="94" y="10" width="1" height="1"/>
+      <rect class="cls-2" x="96" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="97" y="7" width="1" height="1"/>
+      <rect class="cls-2" x="85" y="19" width="1" height="1"/>
+      <polygon class="cls-2" points="15 5 15 6 13 6 13 4 14 4 14 5 15 5"/>
+      <rect class="cls-2" x="11" y="2" width="1" height="1"/>
+      <rect class="cls-2" x="12" y="3" width="1" height="1"/>
+      <rect class="cls-2" x="14" y="3" width="1" height="1"/>
+      <rect class="cls-2" x="15" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="13" y="7" width="2" height="1"/>
+      <rect class="cls-2" x="11" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="15" y="8" width="1" height="1"/>
+      <rect class="cls-2" x="9" y="3" width="2" height="1"/>
+      <rect class="cls-2" x="13" y="9" width="2" height="1"/>
+      <rect class="cls-2" x="11" y="10" width="2" height="1"/>
+      <rect class="cls-2" x="15" y="10" width="1" height="1"/>
+      <rect class="cls-2" x="13" y="11" width="2" height="1"/>
+      <rect class="cls-2" x="15" y="12" width="1" height="1"/>
+      <rect class="cls-2" x="15" y="14" width="1" height="1"/>
+      <rect class="cls-2" x="9" y="5" width="2" height="1"/>
+      <rect class="cls-2" x="3" y="2" width="2" height="1"/>
+      <rect class="cls-2" x="5" y="3" width="2" height="1"/>
+      <rect class="cls-2" x="7" y="2" width="2" height="1"/>
+      <rect class="cls-2" x="7" y="4" width="2" height="1"/>
+      <rect class="cls-2" x="11" y="6" width="2" height="1"/>
+      <rect class="cls-2" x="9" y="7" width="2" height="1"/>
+      <rect class="cls-2" x="7" y="6" width="2" height="1"/>
+      <rect class="cls-2" x="11" y="8" width="2" height="1"/>
+      <rect class="cls-2" x="14" y="13" width="1" height="1"/>
+      <rect class="cls-2" x="6" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="10" y="9" width="1" height="1"/>
+      <rect class="cls-2" x="13" y="2" width="1" height="1"/>
+      <rect class="cls-2" x="15" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="12" y="13" width="1" height="1"/>
+      <rect class="cls-2" x="14" y="15" width="1" height="1"/>
+      <rect class="cls-2" x="8" y="9" width="1" height="1"/>
+      <rect class="cls-2" x="2" y="3" width="1" height="1"/>
+      <rect class="cls-2" x="4" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="6" y="7" width="1" height="1"/>
+      <rect class="cls-2" x="10" y="11" width="1" height="1"/>
+      <rect class="cls-2" x="12" y="16" width="1" height="1"/>
+      <rect class="cls-2" x="14" y="18" width="1" height="1"/>
+      <rect class="cls-2" x="8" y="12" width="1" height="1"/>
+      <rect class="cls-2" x="2" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="4" y="8" width="1" height="1"/>
+      <rect class="cls-2" x="6" y="10" width="1" height="1"/>
+      <rect class="cls-2" x="10" y="14" width="1" height="1"/>
+      <rect class="cls-2" x="4" y="11" width="1" height="1"/>
+      <rect class="cls-2" x="10" y="17" width="1" height="1"/>
+      <rect class="cls-2" x="13" y="20" width="1" height="1"/>
+      <rect class="cls-2" x="7" y="14" width="1" height="1"/>
+      <rect class="cls-2" x="12" y="22" width="1" height="1"/>
+      <rect class="cls-2" x="6" y="16" width="1" height="1"/>
+      <rect class="cls-2" x="15" y="25" width="1" height="1"/>
+      <rect class="cls-2" x="3" y="13" width="1" height="1"/>
+      <rect class="cls-2" x="9" y="19" width="1" height="1"/>
+      <polygon class="cls-5" points="78 2 78 4 77 4 77 3 76 3 76 4 75 4 75 3 74 3 74 4 73 4 73 3 72 3 72 4 71 4 71 3 70 3 70 4 69 4 69 3 68 3 68 4 67 4 67 3 66 3 66 4 65 4 65 3 64 3 64 4 63 4 63 3 62 3 62 4 61 4 61 3 60 3 60 4 59 4 59 3 58 3 58 4 57 4 57 3 56 3 56 4 55 4 55 3 54 3 54 4 53 4 53 3 52 3 52 4 51 4 51 3 50 3 50 4 49 4 49 3 48 3 48 4 47 4 47 3 46 3 46 4 45 4 45 3 44 3 44 4 43 4 43 3 42 3 42 4 41 4 41 3 40 3 40 4 37 4 37 3 36 3 36 4 35 4 35 3 34 3 34 4 33 4 33 3 32 3 32 4 31 4 31 3 30 3 30 4 29 4 29 3 28 3 28 4 27 4 27 3 26 3 26 4 25 4 25 3 24 3 24 4 23 4 23 3 22 3 22 4 21 4 21 3 20 3 20 4 19 4 19 3 18 3 18 4 17 4 17 2 78 2"/>
+      <rect class="cls-2" x="76" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="74" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="72" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="70" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="68" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="66" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="64" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="62" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="60" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="58" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="56" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="54" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="52" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="50" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="48" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="46" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="44" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="42" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="40" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="38" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="36" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="34" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="32" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="30" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="28" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="26" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="24" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="22" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="20" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="18" y="4" width="1" height="1"/>
+      <rect class="cls-2" x="77" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="75" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="73" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="71" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="69" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="67" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="65" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="63" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="61" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="59" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="57" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="55" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="53" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="51" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="49" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="47" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="45" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="43" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="41" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="39" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="37" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="35" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="33" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="31" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="29" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="27" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="25" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="23" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="21" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="19" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="17" y="5" width="1" height="1"/>
+      <rect class="cls-2" x="76" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="74" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="72" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="70" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="68" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="66" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="64" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="62" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="60" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="58" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="56" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="54" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="52" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="50" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="48" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="46" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="44" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="42" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="40" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="38" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="36" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="34" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="32" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="30" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="28" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="26" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="24" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="22" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="20" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="18" y="6" width="1" height="1"/>
+      <rect class="cls-2" x="77" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="77 8 77 9 75 9 75 7 76 7 76 8 77 8"/>
+      <rect class="cls-2" x="73" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="73 8 73 9 71 9 71 7 72 7 72 8 73 8"/>
+      <rect class="cls-2" x="69" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="69 8 69 9 67 9 67 7 68 7 68 8 69 8"/>
+      <rect class="cls-2" x="65" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="65 8 65 9 63 9 63 7 64 7 64 8 65 8"/>
+      <rect class="cls-2" x="61" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="61 8 61 9 59 9 59 7 60 7 60 8 61 8"/>
+      <rect class="cls-2" x="57" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="57 8 57 9 55 9 55 7 56 7 56 8 57 8"/>
+      <rect class="cls-2" x="53" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="53 8 53 9 51 9 51 7 52 7 52 8 53 8"/>
+      <rect class="cls-2" x="49" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="49 8 49 9 47 9 47 7 48 7 48 8 49 8"/>
+      <rect class="cls-2" x="45" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="45 8 45 9 43 9 43 7 44 7 44 8 45 8"/>
+      <rect class="cls-2" x="41" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="41 8 41 9 39 9 39 7 40 7 40 8 41 8"/>
+      <rect class="cls-2" x="37" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="37 8 37 9 35 9 35 7 36 7 36 8 37 8"/>
+      <rect class="cls-2" x="33" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="33 8 33 9 31 9 31 7 32 7 32 8 33 8"/>
+      <rect class="cls-2" x="29" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="29 8 29 9 27 9 27 7 28 7 28 8 29 8"/>
+      <rect class="cls-2" x="25" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="25 8 25 9 23 9 23 7 24 7 24 8 25 8"/>
+      <rect class="cls-2" x="21" y="7" width="1" height="1"/>
+      <polygon class="cls-2" points="21 8 21 9 19 9 19 7 20 7 20 8 21 8"/>
+      <rect class="cls-2" x="17" y="7" width="1" height="1"/>
+      <rect class="cls-2" x="77" y="13" width="1" height="1"/>
+      <polygon class="cls-2" points="77 12 77 13 76 13 76 14 75 14 75 12 77 12"/>
+      <rect class="cls-2" x="73" y="13" width="1" height="1"/>
+      <polygon class="cls-2" points="73 12 73 13 72 13 72 14 71 14 71 12 73 12"/>
+      <rect class="cls-2" x="69" y="13" width="1" height="1"/>
+      <rect class="cls-2" x="25" y="13" width="1" height="1"/>
+      <polygon class="cls-2" points="25 12 25 13 24 13 24 14 23 14 23 12 25 12"/>
+      <rect class="cls-2" x="21" y="13" width="1" height="1"/>
+      <polygon class="cls-2" points="21 12 21 13 20 13 20 14 19 14 19 12 21 12"/>
+      <rect class="cls-2" x="17" y="13" width="1" height="1"/>
+      <rect class="cls-2" x="76" y="15" width="1" height="1"/>
+      <rect class="cls-2" x="74" y="15" width="1" height="1"/>
+      <rect class="cls-2" x="72" y="15" width="1" height="1"/>
+      <rect class="cls-2" x="70" y="15" width="1" height="1"/>
+      <rect class="cls-2" x="68" y="15" width="1" height="1"/>
+      <rect class="cls-2" x="19" y="23" width="1" height="1"/>
+      <rect class="cls-2" x="20" y="19" width="1" height="1"/>
+      <rect class="cls-2" x="20" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="19" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="21" y="17" width="1" height="1"/>
+      <rect class="cls-2" x="21" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="20" y="15" width="1" height="1"/>
+      <rect class="cls-2" x="22" y="15" width="1" height="1"/>
+      <rect class="cls-2" x="19" y="17" width="1" height="1"/>
+      <rect class="cls-2" x="21" y="25" width="1" height="1"/>
+      <rect class="cls-2" x="21" y="37" width="1" height="1"/>
+      <rect class="cls-2" x="21" y="41" width="1" height="1"/>
+      <rect class="cls-2" x="21" y="21" width="1" height="1"/>
+      <rect class="cls-2" x="19" y="39" width="1" height="1"/>
+      <rect class="cls-2" x="23" y="23" width="1" height="1"/>
+      <rect class="cls-2" x="22" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="25" y="21" width="1" height="1"/>
+      <rect class="cls-2" x="25" y="17" width="1" height="1"/>
+      <rect class="cls-2" x="22" y="19" width="1" height="1"/>
+      <rect class="cls-2" x="24" y="19" width="1" height="1"/>
+      <rect class="cls-2" x="23" y="39" width="1" height="1"/>
+      <rect class="cls-2" x="24" y="15" width="1" height="1"/>
+      <rect class="cls-2" x="23" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="23" y="17" width="1" height="1"/>
+      <rect class="cls-2" x="18" y="15" width="1" height="1"/>
+      <rect class="cls-2" x="18" y="19" width="1" height="1"/>
+      <rect class="cls-2" x="18" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="36" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="39" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="35" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="37" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="38" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="37" y="41" width="1" height="1"/>
+      <polygon class="cls-2" points="30 9 30 19 29 19 29 32 28 32 28 46 27 46 27 45 26 45 26 32 27 32 27 27 28 27 28 9 30 9"/>
+      <polygon class="cls-2" points="35 23 34 23 34 35 33 35 33 45 32 45 32 46 31 46 31 34 32 34 32 24 33 24 33 9 35 9 35 23"/>
+      <rect class="cls-2" x="76" y="19" width="1" height="1"/>
+      <rect class="cls-2" x="17" y="17" width="1" height="1"/>
+      <rect class="cls-2" x="77" y="17" width="1" height="1"/>
+      <rect class="cls-2" x="75" y="17" width="1" height="1"/>
+      <rect class="cls-2" x="75" y="23" width="1" height="1"/>
+      <rect class="cls-2" x="17" y="21" width="1" height="1"/>
+      <rect class="cls-2" x="77" y="21" width="1" height="1"/>
+      <rect class="cls-2" x="17" y="25" width="1" height="1"/>
+      <rect class="cls-2" x="77" y="25" width="1" height="1"/>
+      <rect class="cls-2" x="21" y="9" width="2" height="1"/>
+      <rect class="cls-2" x="77" y="9" width="1" height="1"/>
+      <rect class="cls-2" x="73" y="9" width="2" height="1"/>
+      <rect class="cls-2" x="69" y="9" width="2" height="1"/>
+      <rect class="cls-2" x="37" y="9" width="2" height="1"/>
+      <rect class="cls-2" x="41" y="9" width="2" height="1"/>
+      <rect class="cls-2" x="45" y="9" width="2" height="1"/>
+      <rect class="cls-2" x="49" y="9" width="2" height="1"/>
+      <rect class="cls-2" x="53" y="9" width="2" height="1"/>
+      <rect class="cls-2" x="19" y="10" width="2" height="1"/>
+      <rect class="cls-2" x="75" y="10" width="2" height="1"/>
+      <rect class="cls-2" x="71" y="10" width="2" height="1"/>
+      <rect class="cls-2" x="23" y="10" width="1" height="1"/>
+      <rect class="cls-2" x="25" y="9" width="1" height="1"/>
+      <rect class="cls-2" x="25" y="11" width="1" height="1"/>
+      <rect class="cls-2" x="17" y="9" width="2" height="1"/>
+      <rect class="cls-2" x="21" y="11" width="2" height="1"/>
+      <rect class="cls-2" x="77" y="11" width="1" height="1"/>
+      <rect class="cls-2" x="73" y="11" width="2" height="1"/>
+      <rect class="cls-2" x="69" y="11" width="2" height="1"/>
+      <rect class="cls-2" x="68" y="12" width="1" height="1"/>
+      <rect class="cls-2" x="37" y="11" width="2" height="1"/>
+      <rect class="cls-2" x="39" y="12" width="2" height=".07"/>
+      <rect class="cls-2" x="39" y="12.93" width="2" height=".07"/>
+      <rect class="cls-2" x="41" y="11" width="2" height="1"/>
+      <rect class="cls-2" x="43" y="12" width="2" height=".07"/>
+      <rect class="cls-2" x="43" y="12.93" width="2" height=".07"/>
+      <rect class="cls-2" x="45" y="11" width="2" height="1"/>
+      <rect class="cls-2" x="47" y="12.93" width="2" height=".07"/>
+      <rect class="cls-2" x="47" y="12" width="2" height=".07"/>
+      <rect class="cls-2" x="51" y="12.93" width="2" height=".07"/>
+      <rect class="cls-2" x="51" y="12" width="2" height=".07"/>
+      <rect class="cls-2" x="49" y="11" width="2" height="1"/>
+      <rect class="cls-2" x="55" y="12.93" width="2" height=".07"/>
+      <rect class="cls-2" x="55" y="12" width="2" height=".07"/>
+      <rect class="cls-2" x="53" y="11" width="2" height="1"/>
+      <rect class="cls-2" x="17" y="11" width="2" height="1"/>
+      <path class="cls-6" d="M47,24v-11h-10v12h-1v2h11v-3ZM42,15v1h-1v1h-1v1h-1v-1h1v-1h1v-1h1ZM46,24h-1v1h-1v1h-1v-1h1v-1h1v-1h1v1Z"/>
+      <path class="cls-6" d="M48,38h7v-4h-1v1h-1v1h-1v1h-1v-1h1v-1h1v-1h1v-1h1v-3h1v-2h-8v10ZM51,31v-1h1v1h-1v1h-1v-1h1Z"/>
+      <path class="cls-6" d="M36,28v9h-1v1h12v-10h-11ZM45,30h-1v1h-1v1h-1v1h-1v1h-1v1h-1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v1Z"/>
+      <path class="cls-6" d="M55,13h-7v14h8v-2h1v-12h-2ZM53,15v-1h1v1h-1v1h-1v1h-1v1h-1v-1h1v-1h1v-1h1ZM54,25h-1v1h-1v-1h1v-1h1v1Z"/>
+      <polygon class="cls-2" points="88 96 88 94 89 94 89 91 90 91 90 87 89 87 89 84 88 84 88 82 87 82 87 80 86 80 86 79 85 79 85 78 84 78 84 77 83 77 83 76 81 76 81 75 78 75 78 74 73 74 73 73 23 73 23 74 18 74 18 75 15 75 15 76 13 76 13 77 12 77 12 78 11 78 11 79 10 79 10 80 9 80 9 82 8 82 8 84 7 84 7 87 6 87 6 91 7 91 7 94 8 94 8 96 9 96 9 98 17 98 17 97 16 97 16 96 15 96 15 95 14 95 14 93 13 93 13 91 12 91 12 87 13 87 13 85 14 85 14 83 15 83 15 82 16 82 16 81 17 81 17 80 19 80 19 79 22 79 22 78 26 78 26 77 70 77 70 78 74 78 74 79 77 79 77 80 79 80 79 81 80 81 80 82 81 82 81 83 82 83 82 85 83 85 83 87 84 87 84 91 83 91 83 93 82 93 82 95 81 95 81 96 80 96 80 97 79 97 79 98 87 98 87 96 88 96"/>
+      <polygon class="cls-7" points="96 86 96 85 95 85 95 84 94 84 94 83 93 83 93 82 92 82 92 81 91 81 91 80 90 80 90 79 89 79 89 78 88 78 88 77 87 77 87 76 86 76 86 75 85 75 85 74 84 74 84 73 83 73 83 72 82 72 82 71 81 71 81 70 80 70 80 69 79 69 79 68 78 68 17 68 16 68 16 69 15 69 15 70 14 70 14 71 13 71 13 72 12 72 12 73 11 73 11 74 10 74 10 75 9 75 9 76 8 76 8 77 7 77 7 78 6 78 6 79 5 79 5 80 4 80 4 81 3 81 3 82 2 82 2 98 9 98 9 96 8 96 8 94 7 94 7 91 6 91 6 87 7 87 7 84 8 84 8 82 9 82 9 80 10 80 10 79 11 79 11 78 12 78 12 77 13 77 13 76 15 76 15 75 18 75 18 74 23 74 23 73 73 73 73 74 78 74 78 75 81 75 81 76 83 76 83 77 84 77 84 78 85 78 85 79 86 79 86 80 87 80 87 82 88 82 88 84 89 84 89 87 90 87 90 91 89 91 89 94 88 94 88 96 87 96 87 98 98 98 98 86 97 86 96 86"/>
+      <polygon class="cls-6" points="80 97 80 96 81 96 81 95 82 95 82 93 83 93 83 91 84 91 84 87 83 87 83 85 82 85 82 83 81 83 81 82 80 82 80 81 79 81 79 80 77 80 77 79 74 79 74 78 70 78 70 77 26 77 26 78 22 78 22 79 19 79 19 80 17 80 17 81 16 81 16 82 15 82 15 83 14 83 14 85 13 85 13 87 12 87 12 91 13 91 13 93 14 93 14 95 15 95 15 96 16 96 16 97 17 97 17 98 79 98 79 97 80 97"/>
+      <polygon class="cls-2" points="15 57 15 58 14 58 14 59 13 59 13 57 15 57"/>
+      <rect class="cls-2" x="11" y="60" width="1" height="1"/>
+      <rect class="cls-2" x="12" y="59" width="1" height="1"/>
+      <rect class="cls-2" x="12" y="61" width="1" height="1"/>
+      <rect class="cls-2" x="14" y="59" width="1" height="1"/>
+      <rect class="cls-2" x="15" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="8" y="63" width="1" height="1"/>
+      <rect class="cls-2" x="8" y="65" width="1" height="1"/>
+      <rect class="cls-2" x="2" y="69" width="1" height="1"/>
+      <rect class="cls-2" x="2" y="71" width="1" height="1"/>
+      <rect class="cls-2" x="3" y="68" width="1" height="1"/>
+      <rect class="cls-2" x="4" y="67" width="1" height="1"/>
+      <rect class="cls-2" x="4" y="69" width="1" height="1"/>
+      <polygon class="cls-2" points="7 65 7 66 6 66 6 67 5 67 5 65 7 65"/>
+      <rect class="cls-2" x="6" y="67" width="1" height="1"/>
+      <rect class="cls-2" x="7" y="64" width="1" height="1"/>
+      <polygon class="cls-2" points="11 61 11 62 10 62 10 63 9 63 9 61 11 61"/>
+      <rect class="cls-2" x="13" y="55" width="2" height="1"/>
+      <rect class="cls-2" x="11" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="15" y="54" width="1" height="1"/>
+      <rect class="cls-2" x="7" y="62" width="1" height="1"/>
+      <rect class="cls-2" x="2" y="67" width="1" height="1"/>
+      <rect class="cls-2" x="3" y="64" width="2" height="1"/>
+      <rect class="cls-2" x="3" y="66" width="1" height="1"/>
+      <rect class="cls-2" x="5" y="63" width="2" height="1"/>
+      <rect class="cls-2" x="9" y="59" width="2" height="1"/>
+      <rect class="cls-2" x="13" y="53" width="2" height="1"/>
+      <rect class="cls-2" x="11" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="15" y="52" width="1" height="1"/>
+      <rect class="cls-2" x="13" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="15" y="50" width="1" height="1"/>
+      <rect class="cls-2" x="15" y="48" width="1" height="1"/>
+      <rect class="cls-2" x="9" y="57" width="2" height="1"/>
+      <rect class="cls-2" x="3" y="62" width="2" height="1"/>
+      <rect class="cls-2" x="2" y="63" width="1" height="1"/>
+      <rect class="cls-2" x="2" y="65" width="1" height="1"/>
+      <rect class="cls-2" x="2" y="61" width="1" height="1"/>
+      <rect class="cls-2" x="5" y="61" width="2" height="1"/>
+      <rect class="cls-2" x="3" y="60" width="2" height="1"/>
+      <rect class="cls-2" x="5" y="59" width="2" height="1"/>
+      <rect class="cls-2" x="7" y="60" width="2" height="1"/>
+      <rect class="cls-2" x="7" y="58" width="2" height="1"/>
+      <rect class="cls-2" x="11" y="56" width="2" height="1"/>
+      <rect class="cls-2" x="9" y="55" width="2" height="1"/>
+      <rect class="cls-2" x="7" y="56" width="2" height="1"/>
+      <rect class="cls-2" x="11" y="54" width="2" height="1"/>
+      <rect class="cls-2" x="14" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="6" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="10" y="53" width="1" height="1"/>
+      <rect class="cls-2" x="10" y="63" width="1" height="1"/>
+      <rect class="cls-2" x="13" y="60" width="1" height="1"/>
+      <rect class="cls-2" x="11" y="62" width="1" height="1"/>
+      <rect class="cls-2" x="15" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="3" y="70" width="1" height="1"/>
+      <rect class="cls-2" x="5" y="68" width="1" height="1"/>
+      <rect class="cls-2" x="7" y="66" width="1" height="1"/>
+      <rect class="cls-2" x="9" y="64" width="1" height="1"/>
+      <rect class="cls-2" x="12" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="14" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="8" y="53" width="1" height="1"/>
+      <rect class="cls-2" x="2" y="59" width="1" height="1"/>
+      <rect class="cls-2" x="4" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="6" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="10" y="51" width="1" height="1"/>
+      <rect class="cls-2" x="12" y="46" width="1" height="1"/>
+      <rect class="cls-2" x="14" y="44" width="1" height="1"/>
+      <rect class="cls-2" x="8" y="50" width="1" height="1"/>
+      <rect class="cls-2" x="2" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="4" y="54" width="1" height="1"/>
+      <rect class="cls-2" x="6" y="52" width="1" height="1"/>
+      <rect class="cls-2" x="10" y="48" width="1" height="1"/>
+      <rect class="cls-2" x="4" y="51" width="1" height="1"/>
+      <rect class="cls-2" x="10" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="13" y="42" width="1" height="1"/>
+      <rect class="cls-2" x="7" y="48" width="1" height="1"/>
+      <rect class="cls-2" x="12" y="40" width="1" height="1"/>
+      <rect class="cls-2" x="6" y="46" width="1" height="1"/>
+      <rect class="cls-2" x="15" y="37" width="1" height="1"/>
+      <rect class="cls-2" x="3" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="9" y="43" width="1" height="1"/>
+      <path class="cls-5" d="M15,60v1h-1v1h1v1h-1v-1h-1v1h-1v1h1v1h-1v-1h-1v1h-1v1h1v1h-1v-1h-1v1h-1v1h1v1h-1v-1h-1v1h-1v1h1v1h-1v-1h-1v1h-1v1h1v1h-1v-1h-1v1h-1v1h1v1h-1v1h1v1h-1v1h2v-2h2v-2h2v-2h2v-2h2v-2h2v-2h2v-6h-1ZM5,75h-1v-1h1v1ZM7,73h-1v-1h1v1ZM9,71h-1v-1h1v1ZM11,69h-1v-1h1v1ZM13,67h-1v-1h1v1ZM15,65h-1v-1h1v1Z"/>
+      <rect class="cls-5" x="83" y="69" width="1" height="1"/>
+      <path class="cls-5" d="M84,64v-1h-1v-1h-1v1h-1v-1h1v-1h-1v-1h-1v1h-1v1h1v1h-1v1h1v1h-1v1h1v1h1v-1h1v1h-1v1h1v1h1v-1h1v-1h-1v-1h1v-1h-1v-1h1ZM82,65h-1v-1h1v1Z"/>
+      <rect class="cls-5" x="79" y="59" width="1" height="1"/>
+      <path class="cls-5" d="M98,78v-1h-1v-1h-1v1h-1v-1h1v-1h-1v-1h-1v7h1v-1h1v1h-1v1h3v-1h-1v-1h1v-1h-1v-1h1ZM96,79h-1v-1h1v1Z"/>
+      <rect class="cls-2" x="94" y="70" width="1" height="1"/>
+      <rect class="cls-2" x="83" y="59" width="1" height="1"/>
+      <rect class="cls-2" x="83" y="61" width="1" height="1"/>
+      <polygon class="cls-2" points="83 57 83 59 82 59 82 58 81 58 81 57 83 57"/>
+      <rect class="cls-2" x="81" y="59" width="1" height="1"/>
+      <rect class="cls-2" x="80" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="97" y="73" width="1" height="1"/>
+      <rect class="cls-2" x="97" y="75" width="1" height="1"/>
+      <polygon class="cls-2" points="97 71 97 73 96 73 96 72 95 72 95 71 97 71"/>
+      <rect class="cls-2" x="94" y="68" width="1" height="1"/>
+      <rect class="cls-2" x="81" y="55" width="2" height="1"/>
+      <rect class="cls-2" x="80" y="54" width="1" height="1"/>
+      <rect class="cls-2" x="95" y="69" width="2" height="1"/>
+      <rect class="cls-2" x="81" y="53" width="2" height="1"/>
+      <rect class="cls-2" x="83" y="54" width="1" height="1"/>
+      <rect class="cls-2" x="83" y="52" width="1" height="1"/>
+      <rect class="cls-2" x="94" y="62" width="1" height="1"/>
+      <rect class="cls-2" x="81" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="80" y="52" width="1" height="1"/>
+      <rect class="cls-2" x="80" y="50" width="1" height="1"/>
+      <rect class="cls-2" x="80" y="48" width="1" height="1"/>
+      <rect class="cls-2" x="97" y="70" width="1" height="1"/>
+      <rect class="cls-2" x="97" y="68" width="1" height="1"/>
+      <rect class="cls-2" x="95" y="67" width="2" height="1"/>
+      <rect class="cls-2" x="94" y="66" width="1" height="1"/>
+      <rect class="cls-2" x="83" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="97" y="66" width="1" height="1"/>
+      <rect class="cls-2" x="95" y="65" width="2" height="1"/>
+      <rect class="cls-2" x="94" y="64" width="1" height="1"/>
+      <rect class="cls-2" x="81" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="95" y="63" width="1" height="1"/>
+      <rect class="cls-2" x="95" y="73" width="1" height="1"/>
+      <rect class="cls-2" x="82" y="60" width="1" height="1"/>
+      <rect class="cls-2" x="94" y="72" width="1" height="1"/>
+      <rect class="cls-2" x="80" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="96" y="74" width="1" height="1"/>
+      <rect class="cls-2" x="83" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="81" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="97" y="63" width="1" height="1"/>
+      <rect class="cls-2" x="95" y="61" width="1" height="1"/>
+      <rect class="cls-2" x="83" y="46" width="1" height="1"/>
+      <rect class="cls-2" x="81" y="44" width="1" height="1"/>
+      <rect class="cls-2" x="97" y="60" width="1" height="1"/>
+      <rect class="cls-2" x="95" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="95" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="82" y="42" width="1" height="1"/>
+      <rect class="cls-2" x="83" y="40" width="1" height="1"/>
+      <rect class="cls-2" x="80" y="37" width="1" height="1"/>
+      <rect class="cls-2" x="96" y="53" width="1" height="1"/>
+      <path class="cls-5" d="M77,59v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v1h-1v-1h-1v7h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-7h-1ZM51,61v1h-1v-1h1ZM49,61v1h-1v-1h1ZM47,61v1h-1v-1h1ZM45,61v1h-1v-1h1ZM43,61v1h-1v-1h1ZM41,61v1h-1v-1h1ZM39,61v1h-1v-1h1ZM37,61v1h-1v-1h1ZM35,61v1h-1v-1h1ZM33,61v1h-1v-1h1ZM31,61v1h-1v-1h1ZM29,61v1h-1v-1h1ZM27,61v1h-1v-1h1ZM25,61v1h-1v-1h1ZM23,61v1h-1v-1h1ZM20,61h1v1h-1v-1ZM18,61h1v1h-1v-1ZM18,64v-1h1v1h-1ZM20,64v-1h1v1h-1ZM22,64v-1h1v1h-1ZM24,64v-1h1v1h-1ZM26,64v-1h1v1h-1ZM28,64v-1h1v1h-1ZM30,64v-1h1v1h-1ZM32,64v-1h1v1h-1ZM34,64v-1h1v1h-1ZM36,64v-1h1v1h-1ZM38,64v-1h1v1h-1ZM40,64v-1h1v1h-1ZM42,64v-1h1v1h-1ZM44,64v-1h1v1h-1ZM46,64v-1h1v1h-1ZM48,64v-1h1v1h-1ZM50,64v-1h1v1h-1ZM53,64h-1v-1h1v1ZM53,62h-1v-1h1v1ZM55,64h-1v-1h1v1ZM55,62h-1v-1h1v1ZM57,64h-1v-1h1v1ZM57,62h-1v-1h1v1ZM59,64h-1v-1h1v1ZM59,62h-1v-1h1v1ZM61,64h-1v-1h1v1ZM61,62h-1v-1h1v1ZM63,64h-1v-1h1v1ZM63,62h-1v-1h1v1ZM65,64h-1v-1h1v1ZM65,62h-1v-1h1v1ZM67,64h-1v-1h1v1ZM67,62h-1v-1h1v1ZM69,64h-1v-1h1v1ZM69,62h-1v-1h1v1ZM71,64h-1v-1h1v1ZM71,62h-1v-1h1v1ZM73,64h-1v-1h1v1ZM73,62h-1v-1h1v1ZM75,64h-1v-1h1v1ZM75,62h-1v-1h1v1ZM77,64h-1v-1h1v1ZM77,62h-1v-1h1v1Z"/>
+      <rect class="cls-2" x="18" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="20" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="22" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="24" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="26" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="28" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="30" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="32" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="34" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="36" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="38" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="40" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="42" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="44" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="46" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="48" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="50" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="52" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="54" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="56" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="58" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="60" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="62" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="64" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="66" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="68" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="70" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="72" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="74" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="76" y="58" width="1" height="1"/>
+      <rect class="cls-2" x="17" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="19" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="21" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="23" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="25" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="27" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="29" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="31" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="33" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="35" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="37" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="39" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="41" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="43" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="45" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="47" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="49" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="51" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="53" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="55" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="57" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="59" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="61" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="63" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="65" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="67" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="69" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="71" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="73" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="75" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="77" y="57" width="1" height="1"/>
+      <rect class="cls-2" x="18" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="20" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="22" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="24" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="26" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="28" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="30" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="32" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="34" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="36" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="38" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="40" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="42" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="44" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="46" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="48" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="50" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="52" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="54" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="56" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="58" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="60" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="62" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="64" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="66" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="68" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="70" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="72" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="74" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="76" y="56" width="1" height="1"/>
+      <rect class="cls-2" x="17" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="21" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="25" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="29" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="33" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="37" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="41" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="45" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="49" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="53" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="57" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="61" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="65" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="69" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="73" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="77" y="55" width="1" height="1"/>
+      <rect class="cls-2" x="17" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="21" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="25" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="29" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="33" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="77" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="18" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="20" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="22" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="24" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="26" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="28" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="30" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="32" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="34" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="36" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="38" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="40" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="42" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="44" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="46" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="48" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="50" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="52" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="54" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="56" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="58" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="60" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="62" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="64" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="66" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="68" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="70" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="72" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="74" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="76" y="47" width="1" height="1"/>
+      <rect class="cls-2" x="40" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="42" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="44" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="46" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="48" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="50" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="52" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="54" y="43" width="1" height="1"/>
+      <polygon class="cls-2" points="66 9 66 23 65 23 65 35 64 35 64 46 63 46 63 45 62 45 62 34 63 34 63 24 64 24 64 9 66 9"/>
+      <rect class="cls-2" x="66" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="68" y="19" width="1" height="1"/>
+      <rect class="cls-2" x="67" y="39" width="1" height="1"/>
+      <rect class="cls-2" x="69" y="21" width="1" height="1"/>
+      <rect class="cls-2" x="69" y="25" width="1" height="1"/>
+      <rect class="cls-2" x="68" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="69" y="41" width="1" height="1"/>
+      <rect class="cls-2" x="69" y="17" width="1" height="1"/>
+      <rect class="cls-2" x="70" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="69" y="37" width="1" height="1"/>
+      <rect class="cls-2" x="70" y="19" width="1" height="1"/>
+      <rect class="cls-2" x="73" y="25" width="1" height="1"/>
+      <rect class="cls-2" x="73" y="37" width="1" height="1"/>
+      <rect class="cls-2" x="73" y="41" width="1" height="1"/>
+      <rect class="cls-2" x="71" y="39" width="1" height="1"/>
+      <rect class="cls-2" x="73" y="21" width="1" height="1"/>
+      <rect class="cls-2" x="71" y="23" width="1" height="1"/>
+      <rect class="cls-2" x="72" y="19" width="1" height="1"/>
+      <rect class="cls-2" x="72" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="71" y="17" width="1" height="1"/>
+      <rect class="cls-2" x="73" y="17" width="1" height="1"/>
+      <rect class="cls-2" x="74" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="74" y="19" width="1" height="1"/>
+      <rect class="cls-2" x="76" y="43" width="1" height="1"/>
+      <rect class="cls-2" x="77" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="17" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="41" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="43" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="45" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="47" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="49" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="51" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="53" y="45" width="1" height="1"/>
+      <polygon class="cls-2" points="61 9 61 19 60 19 60 32 59 32 59 45 58 45 58 46 57 46 57 32 58 32 58 27 59 27 59 9 61 9"/>
+      <rect class="cls-2" x="67" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="69" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="71" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="73" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="75" y="45" width="1" height="1"/>
+      <rect class="cls-2" x="77" y="41" width="1" height="1"/>
+      <rect class="cls-2" x="17" y="41" width="1" height="1"/>
+      <rect class="cls-2" x="41" y="41" width="1" height="1"/>
+      <rect class="cls-2" x="45" y="41" width="1" height="1"/>
+      <rect class="cls-2" x="49" y="41" width="1" height="1"/>
+      <rect class="cls-2" x="53" y="41" width="1" height="1"/>
+      <rect class="cls-2" x="75" y="39" width="1" height="1"/>
+      <rect class="cls-2" x="77" y="37" width="1" height="1"/>
+      <rect class="cls-2" x="17" y="37" width="1" height="1"/>
+      <polygon class="cls-2" points="20 54 20 56 19 56 19 55 18 55 18 54 20 54"/>
+      <rect class="cls-2" x="20" y="53" width="2" height="1"/>
+      <polygon class="cls-2" points="24 54 24 56 23 56 23 55 22 55 22 54 24 54"/>
+      <rect class="cls-2" x="24" y="53" width="2" height="1"/>
+      <polygon class="cls-2" points="28 54 28 56 27 56 27 55 26 55 26 54 28 54"/>
+      <rect class="cls-2" x="28" y="53" width="2" height="1"/>
+      <polygon class="cls-2" points="32 54 32 56 31 56 31 55 30 55 30 54 32 54"/>
+      <rect class="cls-2" x="32" y="53" width="2" height="1"/>
+      <polygon class="cls-2" points="36 54 36 56 35 56 35 55 34 55 34 54 36 54"/>
+      <rect class="cls-2" x="36" y="53" width="2" height="1"/>
+      <polygon class="cls-2" points="40 54 40 56 39 56 39 55 38 55 38 54 40 54"/>
+      <rect class="cls-2" x="40" y="53" width="2" height="1"/>
+      <polygon class="cls-2" points="44 54 44 56 43 56 43 55 42 55 42 54 44 54"/>
+      <rect class="cls-2" x="44" y="53" width="2" height="1"/>
+      <polygon class="cls-2" points="48 54 48 56 47 56 47 55 46 55 46 54 48 54"/>
+      <rect class="cls-2" x="48" y="53" width="2" height="1"/>
+      <polygon class="cls-2" points="52 54 52 56 51 56 51 55 50 55 50 54 52 54"/>
+      <rect class="cls-2" x="52" y="53" width="2" height="1"/>
+      <polygon class="cls-2" points="56 54 56 56 55 56 55 55 54 55 54 54 56 54"/>
+      <rect class="cls-2" x="56" y="53" width="2" height="1"/>
+      <polygon class="cls-2" points="60 54 60 56 59 56 59 55 58 55 58 54 60 54"/>
+      <polygon class="cls-2" points="64 54 64 56 63 56 63 55 62 55 62 54 64 54"/>
+      <polygon class="cls-2" points="68 54 68 56 67 56 67 55 66 55 66 54 68 54"/>
+      <polygon class="cls-2" points="72 54 72 56 71 56 71 55 70 55 70 54 72 54"/>
+      <rect class="cls-2" x="72" y="53" width="2" height="1"/>
+      <polygon class="cls-2" points="76 54 76 56 75 56 75 55 74 55 74 54 76 54"/>
+      <rect class="cls-2" x="17" y="53" width="1" height="1"/>
+      <rect class="cls-2" x="60" y="53" width="2" height="1"/>
+      <rect class="cls-2" x="64" y="53" width="2" height="1"/>
+      <rect class="cls-2" x="68" y="53" width="2" height="1"/>
+      <rect class="cls-2" x="18" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="22" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="26" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="30" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="34" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="38" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="42" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="46" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="50" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="54" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="58" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="74" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="62" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="66" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="70" y="52" width="2" height="1"/>
+      <rect class="cls-2" x="76" y="53" width="2" height="1"/>
+      <rect class="cls-2" x="76" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="20" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="28" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="32" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="36" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="40" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="44" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="48" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="52" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="56" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="72" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="17" y="51" width="1" height="1"/>
+      <rect class="cls-2" x="24" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="60" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="64" y="51" width="2" height="1"/>
+      <rect class="cls-2" x="68" y="51" width="2" height="1"/>
+      <polygon class="cls-2" points="20 49 20 51 18 51 18 50 19 50 19 49 20 49"/>
+      <polygon class="cls-2" points="24 49 24 51 22 51 22 50 23 50 23 49 24 49"/>
+      <polygon class="cls-2" points="28 49 28 51 26 51 26 50 27 50 27 49 28 49"/>
+      <polygon class="cls-2" points="32 49 32 51 30 51 30 50 31 50 31 49 32 49"/>
+      <rect class="cls-2" x="37" y="49" width="1" height="1"/>
+      <polygon class="cls-2" points="35 49 36 49 36 51 34 51 34 50 35 50 35 49"/>
+      <polygon class="cls-2" points="39 49 40 49 40 51 38 51 38 50 39 50 39 49"/>
+      <rect class="cls-2" x="41" y="49" width="1" height="1"/>
+      <polygon class="cls-2" points="43 49 44 49 44 51 42 51 42 50 43 50 43 49"/>
+      <polygon class="cls-2" points="47 49 48 49 48 51 46 51 46 50 47 50 47 49"/>
+      <rect class="cls-2" x="45" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="49" y="49" width="1" height="1"/>
+      <polygon class="cls-2" points="76 49 76 51 74 51 74 50 75 50 75 49 76 49"/>
+      <polygon class="cls-2" points="63 49 64 49 64 51 62 51 62 50 63 50 63 49"/>
+      <rect class="cls-2" x="61" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="65" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="69" y="49" width="1" height="1"/>
+      <polygon class="cls-2" points="67 49 68 49 68 51 66 51 66 50 67 50 67 49"/>
+      <polygon class="cls-2" points="71 49 72 49 72 51 70 51 70 50 71 50 71 49"/>
+      <rect class="cls-2" x="73" y="49" width="1" height="1"/>
+      <rect class="cls-2" x="53" y="49" width="1" height="1"/>
+      <polygon class="cls-2" points="51 49 52 49 52 51 50 51 50 50 51 50 51 49"/>
+      <polygon class="cls-2" points="59 49 60 49 60 51 58 51 58 50 59 50 59 49"/>
+      <polygon class="cls-2" points="55 49 56 49 56 51 54 51 54 50 55 50 55 49"/>
+      <rect class="cls-2" x="57" y="49" width="1" height="1"/>
+      <polygon class="cls-5" points="86 73 86 25 85 25 85 72 85 73 86 73"/>
+      <polygon class="cls-2" points="90 52 90 54 92 54 92 78 91 78 91 77 90 77 90 76 89 76 89 75 88 75 88 74 87 74 87 73 86 73 86 25 89 25 89 24 92 24 92 52 90 52"/>
+      <polygon class="cls-5" points="92 24 92 52 92 54 92 78 92 79 92 80 93 80 93 22 92 22 92 23 92 24"/>
+      <polygon class="cls-3" points="98 83 98 86 96 86 96 85 95 85 95 84 94 84 94 83 93 83 93 82 92 82 92 81 91 81 91 80 90 80 90 79 89 79 89 78 88 78 88 77 87 77 87 76 86 76 86 75 85 75 85 74 84 74 84 73 83 73 83 72 82 72 82 71 81 71 81 70 80 70 80 69 79 69 79 68 16 68 16 69 15 69 15 70 14 70 14 71 13 71 13 72 12 72 12 73 11 73 11 74 10 74 10 75 9 75 9 76 8 76 8 77 7 77 7 78 6 78 6 79 5 79 5 80 4 80 4 81 3 81 3 82 2 82 2 79 3 79 3 78 4 78 4 77 5 77 5 76 6 76 6 75 7 75 7 74 8 74 8 73 9 73 9 72 10 72 10 71 11 71 11 70 12 70 12 69 13 69 13 68 14 68 14 67 15 67 15 66 16 66 16 2 17 2 17 66 78 66 78 2 79 2 79 66 80 66 80 67 81 67 81 68 82 68 82 69 83 69 83 70 84 70 84 24 86 24 86 25 85 25 85 73 86 73 86 74 87 74 87 75 88 75 88 76 89 76 89 77 90 77 90 78 91 78 91 79 92 79 92 80 93 80 93 22 92 22 92 21 94 21 94 81 95 81 95 82 97 82 97 83 98 83"/>
+      <polygon class="cls-3" points="90 52 90 54 91 54 92 54 92 52 91 52 90 52"/>
+      <rect class="cls-3" x="86" y="23" width="3" height="1"/>
+      <polygon class="cls-5" points="87 25 88 25 89 25 89 24 86 24 86 25 87 25"/>
+      <polygon class="cls-5" points="90 24 91 24 92 24 92 23 89 23 89 24 90 24"/>
+      <rect class="cls-3" x="89" y="22" width="3" height="1"/>
+      <rect class="cls-3" x="29" y="33" width="1" height="13"/>
+      <polygon class="cls-3" points="26 9 27 9 27 26 26 26 26 31 25 31 25 46 24 46 24 30 25 30 25 25 26 25 26 11 24 11 24 10 26 10 26 9"/>
+      <polygon class="cls-3" points="31 9 32 9 32 23 31 23 31 33 30 33 30 20 31 20 31 9"/>
+      <path class="cls-3" d="M57,9v1h-20v-1h-1v14h-1v13h-1v10h1v-6h20v6h1v-15h1v-5h1V9h-1ZM35,38v-1h1v-9h11v10h-12ZM56,30h-1v8h-7v-10h8v2ZM57,25h-1v2h-8v-14h-1v14h-11v-2h1v-12.07h20v12.07Z"/>
+      <polygon class="cls-3" points="70 10 70 11 68 11 68 25 67 25 67 37 66 37 66 46 65 46 65 36 66 36 66 23 67 23 67 9 68 9 68 10 70 10"/>
+      <polygon class="cls-3" points="63 9 63 23 62 23 62 33 61 33 61 20 62 20 62 9 63 9"/>
+      <rect class="cls-3" x="60" y="33" width="1" height="13"/>
+      <polygon class="cls-5" points="28 27 27 27 27 32 26 32 26 46 25 46 25 31 26 31 26 26 27 26 27 9 28 9 28 27"/>
+      <polygon class="cls-5" points="30 33 29 33 29 46 28 46 28 32 29 32 29 19 30 19 30 9 31 9 31 20 30 20 30 33"/>
+      <polygon class="cls-5" points="34 23 35 23 35 36 34 36 34 46 33 46 33 35 34 35 34 23"/>
+      <polygon class="cls-5" points="33 24 32 24 32 34 31 34 31 46 30 46 30 33 31 33 31 23 32 23 32 9 33 9 33 24"/>
+      <rect class="cls-5" x="40" y="33" width="1" height="1"/>
+      <rect class="cls-5" x="39" y="17" width="1" height="1"/>
+      <rect class="cls-5" x="40" y="16" width="1" height="1"/>
+      <rect class="cls-5" x="35" y="9" width="1" height="14"/>
+      <rect class="cls-5" x="39" y="34" width="1" height="1"/>
+      <rect class="cls-5" x="45" y="23" width="1" height="1"/>
+      <rect class="cls-5" x="42" y="31" width="1" height="1"/>
+      <rect class="cls-5" x="41" y="15" width="1" height="1"/>
+      <rect class="cls-5" x="44" y="24" width="1" height="1"/>
+      <rect class="cls-5" x="43" y="25" width="1" height="1"/>
+      <rect class="cls-5" x="44" y="29" width="1" height="1"/>
+      <rect class="cls-5" x="41" y="32" width="1" height="1"/>
+      <rect class="cls-5" x="43" y="30" width="1" height="1"/>
+      <rect class="cls-5" x="51" y="30" width="1" height="1"/>
+      <rect class="cls-5" x="50" y="17" width="1" height="1"/>
+      <rect class="cls-5" x="50" y="31" width="1" height="1"/>
+      <rect class="cls-5" x="51" y="16" width="1" height="1"/>
+      <rect class="cls-5" x="51" y="36" width="1" height="1"/>
+      <rect class="cls-5" x="54" y="33" width="1" height="1"/>
+      <rect class="cls-5" x="52" y="35" width="1" height="1"/>
+      <rect class="cls-5" x="53" y="24" width="1" height="1"/>
+      <rect class="cls-5" x="53" y="14" width="1" height="1"/>
+      <rect class="cls-5" x="52" y="25" width="1" height="1"/>
+      <polygon class="cls-5" points="59 27 58 27 58 32 57 32 57 46 56 46 56 31 57 31 57 26 58 26 58 9 59 9 59 27"/>
+      <rect class="cls-5" x="52" y="15" width="1" height="1"/>
+      <rect class="cls-5" x="53" y="34" width="1" height="1"/>
+      <rect class="cls-5" x="66" y="9" width="1" height="14"/>
+      <polygon class="cls-5" points="61 33 60 33 60 46 59 46 59 32 60 32 60 19 61 19 61 9 62 9 62 20 61 20 61 33"/>
+      <polygon class="cls-5" points="64 24 63 24 63 34 62 34 62 46 61 46 61 33 62 33 62 23 63 23 63 9 64 9 64 24"/>
+      <polygon class="cls-5" points="65 23 66 23 66 36 65 36 65 46 64 46 64 35 65 35 65 23"/>
+      <rect class="cls-5" x="86" y="73" width="1" height="1"/>
+      <rect class="cls-5" x="87" y="74" width="1" height="1"/>
+      <rect class="cls-5" x="88" y="75" width="1" height="1"/>
+      <rect class="cls-5" x="89" y="76" width="1" height="1"/>
+      <rect class="cls-5" x="90" y="77" width="1" height="1"/>
+      <rect class="cls-5" x="91" y="78" width="1" height="1"/>
+      <rect class="cls-5" x="87" y="26" width="1" height="23"/>
+      <rect class="cls-5" x="90" y="25" width="1" height="25"/>
+      <rect class="cls-5" x="87" y="54" width="1" height="18"/>
+      <rect class="cls-5" x="90" y="56" width="1" height="19"/>
+    </g>
+    <rect class="cls-4" x="40" y="1" width="20" height="1"/>
+  </g>
+</svg>

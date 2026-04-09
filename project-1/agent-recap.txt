@@ -1,0 +1,120 @@
+Project 1 — Creature Care (GitHub Pages mini-game)
+==================================================
+Location: project-1/ (index.html, project-1.css, project-1.js). Linked from repo root index.html.
+
+PURPOSE
+-------
+Tamagotchi-style loop: story intro → sequential “note” popups → care for a creature via toolbar tools
+(Food, Play, Travel, Read) with progress bars. Each game “stage” adds a new required bar. Completing
+all required bars for the current stage opens a Continue popup; after Continue, stage advances and
+bars reset for the next round. After the finale (Knowledge), a scripted cutscene plays (no Continue),
+then fades to the opening story with an optional alternate background. Placeholder SVG creature art
+can change per stage.
+
+STAGES (project-1.js: Stage enum)
+---------------------------------
+INTRO (0): Before gameplay. Intro layer + optional intro-seq popups. Creature hidden.
+FEED (1):  Only Feed bar required to clear.
+PLAY (2):  Feed + Play required.
+TRAVEL (3): Feed + Play + Travel required.
+FINAL (4): All four bars required.
+
+After a stage clears, openTransitionForCompletedStage(completedStage) runs with the stage that was
+just finished (not the new one). onStageContinue then sets gameState.stage = completed + 1 (unless
+finale → cutscene → reset to intro, not via Continue).
+
+STATE (gameState)
+-----------------
+- stage: current Stage.
+- introComplete: false until beginGameplay() (after two post-intro popups).
+- introSeqIndex: which sequential note popup is showing (-1 = none).
+- bars: feed/play/travel/final (0–100, synced to <progress>).
+- stagePopupOpen: true while stage modal is open; blocks tool use.
+
+BAR FILL RATES
+--------------
+- “Current” column (gameState.stage === bar’s home stage): 5 presses to fill (PRESSES_CURRENT_STAGE_BAR).
+- Earlier-stage columns at the same time: 3 presses (PRESSES_REPLAY_BAR).
+See pressesToFillBar(), barIncrement(), barHomeStage().
+
+KEY FUNCTIONS (project-1.js)
+----------------------------
+init / cacheDom / wireButtons
+  Wire all UI; init hides stage popup, applies toolbar locks, focuses intro Next.
+
+beginGameplay()
+  Sets introComplete, stage = FEED, shows creature + bars, toolbar shadows (toolbar-container--shadows-visible),
+  resetAllBars, applyStageToolbarAndLocks, focusFirstIncompleteTool.
+
+applyStageToolbarAndLocks()
+  Central UI sync: which tools are visible/disabled, bar rows, cluster--tool-hidden for locked tools,
+  is-bar-full, AND syncCreaturePlaceholder() in BOTH branches (intro-incomplete and gameplay).
+  If you add new UI that depends on stage, hook it here or beside syncCreaturePlaceholder.
+
+syncCreaturePlaceholder()
+  Sets #creature[data-creature-stage] and shows exactly one <g data-creature-phase="…"> inside
+  .creature__placeholder (visibility + display). MUST run whenever gameState.stage meaningfully
+  applies — it is called at end of applyStageToolbarAndLocks (both paths).
+
+applyToolPress(barKey) / handleToolClick
+  Increments bar; on stage complete calls openTransitionForCompletedStage(gameState.stage).
+
+openTransitionForCompletedStage(completedStage)
+  Sets pendingStageComplete, copies stageTransitionCopy, applyStagePopupPresentation, showStagePopup.
+
+applyStagePopupPresentation(completedStage)
+  For FINAL: stage-popup-layer--finale, #stage-popup gets intro-popup--fit-game + stage-popup--finale.
+
+showStagePopup()
+  If pendingStageComplete === FINAL: hides stage-popup__default, shows #finale-cutscene, hides Continue,
+  startFinaleCutscene(). Else: milestone modal + focus Continue.
+
+startFinaleCutscene()
+  Advances .finale-cutscene__frame using FINALE_FRAME_DURATIONS_MS, then fadeOutFinaleThenReset().
+
+onStageContinue()
+  If completed === FINAL: fadeOutFinaleThenReset() (safety; Continue is hidden during finale).
+  Else hideStagePopup, advance stage, resetAllBars, applyStageToolbarAndLocks, focusFirstIncompleteTool.
+
+fadeOutFinaleThenReset()
+  showIntroLayerUnderFinale(); fade finale opacity; resetGameToStart({ introAlreadyVisible: true, postGameIntro: true }).
+
+resetGameToStart({ fadeIntro, introAlreadyVisible, postGameIntro })
+  Full reset to INTRO. postGameIntro adds intro-layer--post-game (alternate intro background in CSS).
+
+applyToolPress / triggerToolPressAnimation(barKey)
+  Each successful fill triggers a distinct CSS animation on #creature (creature--press-feed, etc.).
+Wide layout (720px+): .game-layout uses flex; --game-square sizes a true square viewport + matching toolbar height, centered when margins grow.
+
+Toolbar: toolbarSlotCluster(btn), .toolbar-slot__cluster--tool-hidden
+  Icon/label hidden without display:none on whole slot; shadow outside dimming. Hit target: .toolbar-slot__hit.
+
+FADE / LAYERS
+-------------
+- intro-layer: full #game-shell, z-index 5; intro-layer--fade-out for opacity fade;
+  intro-layer--post-game for alternate background after finale (CSS --intro-bg-after-game or gradient).
+- stage-popup-layer: default fixed centered modal (dimmed viewport); --finale = absolute inset game-shell z 8.
+- intro-seq-layer: fixed overlay z 12 for the two notes after first intro fade.
+
+REQUIREMENTS / PITFALLS
+-----------------------
+1. syncCreaturePlaceholder() must run after gameplay starts — it lives at the end of BOTH branches of
+   applyStageToolbarAndLocks. Removing it from the introComplete===true branch breaks phase changes.
+2. Do not use global .is-hidden on toolbar visuals that include shadows; use cluster--tool-hidden.
+3. Finale → intro: always show intro under finale before fading finale (showIntroLayerUnderFinale).
+4. SVG <g> visibility: prefer syncCreaturePlaceholder’s visibility + display, not CSS-only display on <g>.
+5. stage-popup-layer--fade-out is removed in hideStagePopup().
+
+EXTENSION POINTS
+----------------
+- stageTransitionCopy, introOpeningTitle/Body, postIntroPopups: copy.
+- CREATURE_STAGE_ATTR + <g data-creature-phase> in index.html: creature art per stage.
+- FINALE_FRAME_DURATIONS_MS + #finale-cutscene frames in index.html: finale timing and art.
+- intro-layer--post-game / --intro-bg-after-game in project-1.css: post-finale intro look.
+- CREATURE_PRESS_CLASSES + @keyframes creature-press-* in project-1.css: per-tool fill animations.
+- barFullMessages, creature--bar-full CSS keyframes: full-bar feedback.
+- Optional: “Animation hook” comments in openTransitionForCompletedStage, onStageContinue, onToolTravel.
+
+ROOT SITE
+---------
+samkruse.github.io links to /project-1/ from the main index; this folder is self-contained aside from that link.

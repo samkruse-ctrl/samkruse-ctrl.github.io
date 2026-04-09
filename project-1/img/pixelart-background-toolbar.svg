@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="20" height="100" viewBox="0 0 20 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bac49f;
+      }
+
+      .cls-2 {
+        fill: #1a2400;
+      }
+    </style>
+  </defs>
+  <g id="Background_elements" data-name="Background elements">
+    <g>
+      <rect class="cls-2" x="-4" y="44" width="9" height="1" transform="translate(45 44) rotate(90)"/>
+      <rect class="cls-2" x="-4" y="55" width="9" height="1" transform="translate(-55 56) rotate(-90)"/>
+      <rect class="cls-1" x="1" y="1" width="18" height="98"/>
+      <polygon class="cls-2" points="2 1 2 0 0 0 0 2 1 2 1 40 2 40 2 2 18 2 18 40 19 40 19 40 19 2 20 2 20 0 18 0 18 1 2 1"/>
+      <rect class="cls-2" x="15" y="44" width="9" height="1" transform="translate(64 25) rotate(90)"/>
+      <rect class="cls-2" x="15" y="55" width="9" height="1" transform="translate(75 36) rotate(90)"/>
+      <polygon class="cls-2" points="2 98 2 60 1 60 1 60 1 98 0 98 0 100 2 100 2 99 18 99 18 100 20 100 20 98 19 98 19 60 18 60 18 98 2 98"/>
+    </g>
+  </g>
+</svg>

@@ -320,6 +320,31 @@ function wireButtons() {
   ui.btnToolFinal?.addEventListener("click", onToolFinal);
 }
 
+function wireDebugHotkeys() {
+  window.addEventListener("keydown", (e) => {
+    if (e.repeat) return;
+    if (e.key !== "1") return;
+    showFinaleLayer();
+    startFinaleCutscene();
+  });
+}
+
+/** @param {BarKey} key */
+function barRowElement(key) {
+  switch (key) {
+    case "feed":
+      return ui.rowFeed;
+    case "play":
+      return ui.rowPlay;
+    case "travel":
+      return ui.rowTravel;
+    case "final":
+      return ui.rowFinal;
+    default:
+      return null;
+  }
+}
+
 /** @param {BarKey} key */
 function barElement(key) {
   switch (key) {
@@ -343,6 +368,49 @@ function syncBarFromState(key) {
     el.value = gameState.bars[key];
   }
 }
+
+/**
+ * Trigger the fade-up animation for a specific bar row.
+ * Creates a clone of the bar that animates independently and removes itself.
+ * @param {BarKey} key
+ */
+function triggerBarRowAnimation(key) {
+  const template = barRowElement(key);
+  if (!template) return;
+  
+  // Clone the template bar
+  const clonedBar = template.cloneNode(true);
+  clonedBar.classList.remove("is-hidden");
+  clonedBar.setAttribute("aria-hidden", "false");
+  
+  // Update the cloned progress value to current state
+  const progressEl = clonedBar.querySelector("progress");
+  if (progressEl) progressEl.value = gameState.bars[key];
+  
+  // Add to container
+  ui.creatureViewportBars?.appendChild(clonedBar);
+  
+  // Trigger animation
+  clonedBar.classList.add("bar-row--animate-press");
+  
+  // Remove after animation
+  let finished = false;
+  const cleanup = () => {
+    if (finished) return;
+    finished = true;
+    clonedBar.removeEventListener("animationend", onAnimEnd);
+    clonedBar.remove();
+  };
+  
+  const onAnimEnd = (e) => {
+    if (e.animationName !== "bar-row-fade-up") return;
+    cleanup();
+  };
+  
+  clonedBar.addEventListener("animationend", onAnimEnd, { once: true });
+  window.setTimeout(cleanup, 2500);
+}
+
 
 function syncAllBars() {
   syncBarFromState("feed");
@@ -555,6 +623,7 @@ function applyToolPress(barKey) {
     gameState.bars[barKey] = max;
   }
   syncBarFromState(barKey);
+  triggerBarRowAnimation(barKey);
 
   const justCompletedStage = isCurrentStageComplete();
   const stageForPopup = gameState.stage;
@@ -657,17 +726,17 @@ function applyStageToolbarAndLocks() {
  * @param {number} s {@link Stage}
  */
 function syncBarRowVisibility(s) {
+  // Keep all template bar rows hidden - cloned bars are created on demand via animation
   const rows = [
     { el: ui.rowFeed, minStage: Stage.FEED },
     { el: ui.rowPlay, minStage: Stage.PLAY },
     { el: ui.rowTravel, minStage: Stage.TRAVEL },
     { el: ui.rowFinal, minStage: Stage.FINAL },
   ];
-  for (const { el, minStage } of rows) {
+  for (const { el } of rows) {
     if (!el) continue;
-    const visible = s >= minStage;
-    el.classList.toggle("is-hidden", !visible);
-    el.setAttribute("aria-hidden", visible ? "false" : "true");
+    el.classList.add("is-hidden");
+    el.setAttribute("aria-hidden", "true");
   }
 }
 
@@ -951,6 +1020,7 @@ function onToolFinal(_e) {
 function init() {
   cacheDom();
   wireButtons();
+  wireDebugHotkeys();
   syncViewportCssVars();
   window.addEventListener("resize", syncViewportCssVars);
   const vp = document.querySelector(".creature-viewport");

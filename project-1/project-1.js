@@ -220,11 +220,9 @@ function syncViewportCssVars() {
   const shell = document.getElementById("game-shell");
   const root = document.documentElement;
   
-  // Sync popup-aside-svg based on viewport width
   if (vp) {
     const w = vp.getBoundingClientRect().width;
     root.style.setProperty("--viewport-side", `${w}px`);
-    root.style.setProperty("--popup-aside-svg", `${w * 0.47}px`);
   }
   
   // Sync scale factor based on game-shell width
@@ -307,6 +305,9 @@ function cacheDom() {
   ui.barFullToast = document.getElementById("bar-full-toast");
   ui.stagePopupDefault = document.getElementById("stage-popup-default");
   ui.finaleCutscene = document.getElementById("finale-cutscene");
+  ui.introSeqImage = document.getElementById("intro-seq-image");
+  ui.stagePopupImage = document.getElementById("stage-popup-image");
+  ui.stagePopupImageAlt = document.getElementById("stage-popup-image-alt");
 }
 
 function wireButtons() {
@@ -504,6 +505,58 @@ function startFinaleCutscene() {
   step();
 }
 
+/**
+ * Animate image switching with Pokemon-style evolution effect.
+ * Flashes between two images, starting slow and speeding up, before settling.
+ * @param {HTMLImageElement | null} img1 - Main image
+ * @param {HTMLImageElement | null} img2 - Alternative image to flash to
+ */
+function animateImageSwitch(img1, img2) {
+  if (!img1 || !img2) return;
+  
+  // Initialize opacity states
+  img1.style.opacity = "1";
+  img2.style.opacity = "0";
+  
+  // Define flash sequence: [duration in ms, image to show (1 or 2)]
+  const sequence = [
+    // Slow flashes (2 cycles at 200ms)
+    200, 2, 200, 1,
+    // Medium flashes (2 cycles at 120ms)
+    120, 2, 120, 1,
+    // Faster flashes (2 cycles at 80ms)
+    80, 2, 80, 1,
+    // Very fast flashes (2 cycles at 50ms)
+    50, 2, 50, 1,
+    // Settle on final image
+    50, 1, 0, 2 // End with img1 shown, img2 hidden
+  ];
+  
+  let idx = 0;
+  
+  function processSequence() {
+    if (idx >= sequence.length) return;
+    
+    const duration = sequence[idx];
+    const imageNum = sequence[idx + 1];
+    idx += 2;
+    
+    if (imageNum === 1) {
+      img1.style.opacity = "1";
+      img2.style.opacity = "0";
+    } else {
+      img1.style.opacity = "0";
+      img2.style.opacity = "1";
+    }
+    
+    if (idx < sequence.length) {
+      window.setTimeout(processSequence, duration);
+    }
+  }
+  
+  processSequence();
+}
+
 function openTransitionForCompletedStage(completedStage) {
   pendingStageComplete = completedStage;
   if (completedStage === Stage.FINAL) {
@@ -513,8 +566,35 @@ function openTransitionForCompletedStage(completedStage) {
     const copy = stageTransitionCopy[completedStage];
     if (copy && ui.stagePopupContent) ui.stagePopupContent.textContent = copy.content;
     if (ui.stagePopupContinue) setAnimatedText(ui.stagePopupContinue, copy.buttonText);
+    
+    // Set images based on stage
+    if (ui.stagePopupImage && ui.stagePopupImageAlt) {
+      switch (completedStage) {
+        case Stage.FEED:
+          ui.stagePopupImage.src = "img/popup-img-3.svg";
+          ui.stagePopupImageAlt.src = "img/popup-img-4.svg";
+          break;
+        case Stage.PLAY:
+          ui.stagePopupImage.src = "img/popup-img-4.svg";
+          ui.stagePopupImageAlt.src = "img/popup-img-5.svg";
+          break;
+        case Stage.TRAVEL:
+          ui.stagePopupImage.src = "img/popup-img-5.svg";
+          ui.stagePopupImageAlt.src = "img/popup-img-6.svg";
+          break;
+      }
+      // Initialize opacity so starting form is visible
+      ui.stagePopupImage.style.opacity = "1";
+      ui.stagePopupImageAlt.style.opacity = "0";
+    }
+    
     applyStagePopupPresentation(completedStage);
     showStagePopup();
+    
+    // Start image switching animation after a longer delay to allow images to load and settle
+    window.setTimeout(() => {
+      animateImageSwitch(ui.stagePopupImage, ui.stagePopupImageAlt);
+    }, 800);
   }
 }
 
@@ -933,6 +1013,12 @@ function showIntroSeqPopup(index) {
   const copy = postIntroPopups[index];
   if (ui.introSeqContent) ui.introSeqContent.textContent = copy.content;
   if (ui.introSeqContinue) setAnimatedText(ui.introSeqContinue, copy.buttonText);
+  
+  // Set image based on index (reversed: index 0 gets img-2, index 1 gets img-1)
+  if (ui.introSeqImage) {
+    ui.introSeqImage.src = `img/popup-img-${2 - index}.svg`;
+  }
+  
   gameState.introSeqIndex = index;
   if (ui.introSeqLayer) {
     ui.introSeqLayer.hidden = false;

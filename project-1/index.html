@@ -13,6 +13,7 @@
   <main id="main">
     <div id="game-shell" class="game-shell">
       <div id="game-view" class="game-view game-layout">
+
         <div class="creature-viewport" aria-label="Creature viewport">
           <div id="bar-full-toast" class="toast toast--viewport-top is-hidden" role="status" aria-live="polite" hidden>
           </div>
@@ -88,11 +89,7 @@
           <div class="toolbar toolbar--game">
             <div class="toolbar-slot" id="toolbar-slot-feed">
               <div class="toolbar-slot__cluster toolbar-slot__cluster--tool-hidden">
-                <svg class="toolbar-slot__icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-                  <circle cx="16" cy="14" r="9" fill="none" stroke="currentColor" stroke-width="2" />
-                  <path d="M8 22 Q16 28 24 22" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" />
-                </svg>
+                <img src="img/ico-food.svg" class="toolbar-slot__icon" aria-hidden="true" focusable="false" alt="Food" />
                 <span class="toolbar-slot__shadow-area" aria-hidden="true"></span>
                 <span class="toolbar-slot__label">Food</span>
                 <button type="button" class="toolbar-slot__hit" id="btn-tool-feed" title="Feed" disabled
@@ -101,10 +98,7 @@
             </div>
             <div class="toolbar-slot" id="toolbar-slot-play">
               <div class="toolbar-slot__cluster toolbar-slot__cluster--tool-hidden">
-                <svg class="toolbar-slot__icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-                  <circle cx="16" cy="16" r="10" fill="none" stroke="currentColor" stroke-width="2" />
-                  <path d="M14 12 L14 20 L20 16 Z" fill="currentColor" />
-                </svg>
+                <img src="img/ico-play.svg" class="toolbar-slot__icon" aria-hidden="true" focusable="false" alt="Play" />
                 <span class="toolbar-slot__shadow-area" aria-hidden="true"></span>
                 <span class="toolbar-slot__label">Play</span>
                 <button type="button" class="toolbar-slot__hit" id="btn-tool-play" title="Play" disabled
@@ -113,11 +107,7 @@
             </div>
             <div class="toolbar-slot" id="toolbar-slot-travel">
               <div class="toolbar-slot__cluster toolbar-slot__cluster--tool-hidden">
-                <svg class="toolbar-slot__icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-                  <path d="M6 22 L16 8 L26 22 Z" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linejoin="round" />
-                  <line x1="16" y1="8" x2="16" y2="4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                </svg>
+                <img src="img/ico-travel.svg" class="toolbar-slot__icon" aria-hidden="true" focusable="false" alt="Travel" />
                 <span class="toolbar-slot__shadow-area" aria-hidden="true"></span>
                 <span class="toolbar-slot__label">Travel</span>
                 <button type="button" class="toolbar-slot__hit" id="btn-tool-travel" title="Travel" disabled
@@ -126,12 +116,7 @@
             </div>
             <div class="toolbar-slot" id="toolbar-slot-knowledge">
               <div class="toolbar-slot__cluster toolbar-slot__cluster--tool-hidden">
-                <svg class="toolbar-slot__icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-                  <rect x="8" y="6" width="16" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2" />
-                  <line x1="11" y1="11" x2="21" y2="11" stroke="currentColor" stroke-width="1.5" />
-                  <line x1="11" y1="15" x2="19" y2="15" stroke="currentColor" stroke-width="1.5" />
-                  <line x1="11" y1="19" x2="17" y2="19" stroke="currentColor" stroke-width="1.5" />
-                </svg>
+                <img src="img/ico-read.svg" class="toolbar-slot__icon" aria-hidden="true" focusable="false" alt="Read" />
                 <span class="toolbar-slot__shadow-area" aria-hidden="true"></span>
                 <span class="toolbar-slot__label">Read</span>
                 <button type="button" class="toolbar-slot__hit" id="btn-tool-final" title="Read" disabled
@@ -151,18 +136,15 @@
       </div>
 
       <div id="stage-popup-layer" class="stage-popup-layer is-hidden" hidden aria-live="polite">
-        <div id="stage-popup" class="popup" role="dialog" aria-modal="true" aria-labelledby="stage-popup-title">
+        <div id="stage-popup" class="popup" role="dialog" aria-modal="true">
           <div id="stage-popup-default" class="stage-popup__default popup--aside-layout">
             <div class="popup__main">
               <p id="stage-popup-content"></p>
               <span id="stage-popup-continue" class="continue-span"></span>
             </div>
             <div class="popup__aside" aria-hidden="true">
-              <svg class="popup-aside__svg" viewBox="0 0 64 64" focusable="false">
-                <title>Illustration</title>
-                <rect x="4" y="4" width="56" height="56" rx="6" fill="#eee" stroke="#bbb" stroke-width="2" />
-                <circle cx="32" cy="28" r="10" fill="#ccc" />
-              </svg>
+              <img id="stage-popup-image" src="" class="popup-aside__svg" alt="Illustration" />
+              <img id="stage-popup-image-alt" src="" class="popup-aside__svg" alt="Illustration" />
             </div>
           </div>
         </div>
@@ -182,19 +164,16 @@
       </div>
     </div>
 
-    <div id="intro-seq-layer" class="layer layer-overlay intro-seq-layer is-hidden" hidden aria-live="polite">
-      <div id="intro-seq-popup" class="popup popup--aside-layout" role="dialog" aria-modal="true"
-        aria-labelledby="intro-seq-title">
-        <div class="popup__main">
-          <p id="intro-seq-content"></p>
-          <span id="intro-seq-continue" class="continue-span"></span>
-        </div>
-        <div class="popup__aside" aria-hidden="true">
-          <svg class="popup-aside__svg" viewBox="0 0 64 64" focusable="false">
-            <title>Illustration</title>
-            <rect x="4" y="4" width="56" height="56" rx="6" fill="#eee" stroke="#bbb" stroke-width="2" />
-            <circle cx="32" cy="28" r="10" fill="#ccc" />
-          </svg>
+    <div id="intro-seq-layer" class="stage-popup-layer intro-seq-layer is-hidden" hidden aria-live="polite">
+      <div id="intro-seq-popup" class="popup" role="dialog" aria-modal="true">
+        <div class="popup--aside-layout">
+          <div class="popup__main">
+            <p id="intro-seq-content"></p>
+            <span id="intro-seq-continue" class="continue-span"></span>
+          </div>
+          <div class="popup__aside" aria-hidden="true">
+            <img id="intro-seq-image" src="" class="popup-aside__svg" alt="Illustration" />
+          </div>
         </div>
       </div>
     </div>

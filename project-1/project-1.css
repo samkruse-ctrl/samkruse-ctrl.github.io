@@ -15,7 +15,7 @@ body {
 
 html {
   height: 100%;
-  background-color: #d51e1e;
+  background-color: #bac49f;
 }
 
 #main {
@@ -29,29 +29,12 @@ html {
 
 :root {
   --viewport-side: 16rem;
-  --popup-aside-svg: 4rem;
   --scale: 1;
 }
 
 .is-hidden,
 [hidden] {
   display: none !important;
-}
-
-/* Overlay base */
-.layer-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  background: rgba(0, 0, 0, 0.35);
-}
-
-.intro-seq-layer {
-  z-index: 12;
 }
 
 .popup {
@@ -61,19 +44,25 @@ html {
 
 .popup--aside-layout {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: stretch;
   gap: calc(1rem * var(--scale, 1));
   width: 100%;
 }
 
 .popup__aside {
-  order: -1;
+  order: 1;
+  flex: 0 0 50%;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  aspect-ratio: 1 / 1;
 }
 
 .popup--aside-layout .popup__main {
+  order: 0;
+  flex: 1 1 50%;
   margin: 0;
-  flex: 1 1 0;
   min-width: 0;
   min-height: 0;
   display: flex;
@@ -85,20 +74,7 @@ html {
   font-family: "lores-15", "Courier New", monospace;
   font-weight: 400;
   font-size: calc(0.9rem * var(--scale, 1));
-}
-
-.popup__aside {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.popup-aside__svg {
-  display: block;
-  width: var(--popup-aside-svg, 4rem);
-  height: var(--popup-aside-svg, 4rem);
-  flex-shrink: 0;
+  padding: calc(0.5rem * var(--scale, 1));
 }
 
 /* Shell + layout */
@@ -111,14 +87,6 @@ html {
   width: calc(100% - 4rem);
   max-width: 100%;
   margin: 0 auto;
-}
-
-.game-view {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto;
-  gap: calc(1rem * var(--scale, 1));
-  width: 100%;
 }
 
 .game-layout {
@@ -186,7 +154,6 @@ html {
   flex-direction: column;
   gap: calc(0.35rem * var(--scale, 1));
   padding: calc(0.5rem * var(--scale, 1)) calc(0.75rem * var(--scale, 1)) calc(0.65rem * var(--scale, 1));
-
 }
 
 .bar-row {
@@ -225,8 +192,6 @@ progress {
 
 /* Intro overlay */
 .intro-layer {
-  grid-column: 1;
-  grid-row: 1;
   z-index: 5;
   display: flex;
   align-items: stretch;
@@ -237,15 +202,9 @@ progress {
   box-sizing: border-box;
 }
 
-#game-shell {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto;
-}
-
-#game-shell>.intro-layer,
-#game-shell>.finale-layer,
-#game-shell>#game-view {
+.game-shell>.intro-layer,
+.game-shell>.finale-layer,
+.game-shell>.game-view {
   grid-column: 1;
   grid-row: 1 / 3;
 }
@@ -263,8 +222,6 @@ progress {
 
 /* Finale overlay */
 .finale-layer {
-  grid-column: 1;
-  grid-row: 1 / 3;
   z-index: 5;
   display: flex;
   align-items: stretch;
@@ -302,10 +259,6 @@ progress {
   font-weight: 1000;
 }
 
-#intro-popup.intro-popup--fit-game #intro-popup-title {
-  margin: 0 0 0.5rem;
-}
-
 /* Stage popup overlay */
 .stage-popup-layer {
   position: fixed;
@@ -318,16 +271,16 @@ progress {
   background: rgba(0, 0, 0, 0.35);
 }
 
-.stage-popup-layer .popup {
-  max-width: 24rem;
-  width: 100%;
+.stage-popup-layer.intro-seq-layer {
+  z-index: 12;
 }
 
-.stage-popup-layer:not(.stage-popup-layer--finale) #stage-popup.popup {
+.stage-popup-layer:not(.stage-popup-layer--finale) .popup {
+  position: relative;
+  background: transparent;
   width: min(100%, var(--viewport-side));
-  max-width: var(--viewport-side);
   aspect-ratio: 2 / 1;
-  height: auto;
+  max-height: calc(100vh - 2rem);
   margin-inline: auto;
   box-sizing: border-box;
   min-height: 0;
@@ -336,13 +289,60 @@ progress {
   flex-direction: column;
 }
 
-.stage-popup-layer:not(.stage-popup-layer--finale) #stage-popup-default.popup--aside-layout {
+.stage-popup-layer:not(.stage-popup-layer--finale) .popup::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: url("img/pixelart-background-popup.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  pointer-events: none;
+}
+
+.stage-popup-layer:not(.stage-popup-layer--finale) .popup--aside-layout {
+  position: relative;
+  z-index: 1;
   flex: 1 1 auto;
   min-height: 0;
   align-items: stretch;
 }
 
+/* Portrait layout: make popup vertical/taller to fit text */
+body.layout-portrait .stage-popup-layer:not(.stage-popup-layer--finale) .popup {
+  width: min(100%, calc(var(--viewport-side) * 0.6));
+  aspect-ratio: 1 / 2;
+  max-height: calc(100vh - 2rem);
+}
 
+body.layout-portrait .stage-popup-layer:not(.stage-popup-layer--finale) .popup::before {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  width: 200%;
+  height: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  transform-origin: center center;
+}
+
+body.layout-portrait .stage-popup-layer:not(.stage-popup-layer--finale) .popup--aside-layout {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+body.layout-portrait .stage-popup-layer:not(.stage-popup-layer--finale) .popup--aside-layout .popup__aside {
+  order: -1;
+  flex: 0 0 auto;
+  aspect-ratio: 1 / 1;
+  max-height: calc(var(--viewport-side) * 0.5);
+}
+
+body.layout-portrait .stage-popup-layer:not(.stage-popup-layer--finale) .popup--aside-layout .popup__main {
+  order: 1;
+  flex: 1 1 auto;
+}
 
 .stage-popup-layer.stage-popup-layer--finale {
   position: absolute;
@@ -436,7 +436,6 @@ progress {
   box-sizing: border-box;
   display: grid;
   width: 100%;
-  height: 100%;
   min-height: 0;
   padding: 0.4rem;
   gap: 0.35rem;
@@ -542,8 +541,8 @@ progress {
 
 .toolbar-slot__icon {
   display: block;
-  width: calc(3rem * var(--scale, 1));
-  height: calc(3rem * var(--scale, 1));
+  width: calc(2rem * var(--scale, 1));
+  height: calc(2rem * var(--scale, 1));
   flex-shrink: 0;
   color: #333;
   pointer-events: none;
@@ -573,6 +572,17 @@ progress {
 .toolbar-slot__cluster:not(.toolbar-slot__cluster--tool-hidden):has(.toolbar-slot__hit.is-bar-full:not(:disabled)) .toolbar-slot__icon,
 .toolbar-slot__cluster:not(.toolbar-slot__cluster--tool-hidden):has(.toolbar-slot__hit.is-bar-full:not(:disabled)) .toolbar-slot__label {
   opacity: 0.72;
+}
+
+/* Image switching animations */
+.popup-aside__svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+  transition: opacity 0.08s ease-in-out;
 }
 
 /* Creature animations */
@@ -682,7 +692,6 @@ progress {
   }
 }
 
-
 @keyframes creature-bar-full-shake {
 
   0%,
@@ -714,7 +723,6 @@ progress {
   font-family: lores-9-minus-wide, sans-serif;
   font-weight: 800;
   font-style: normal;
-  /* font-size: calc(1.5rem * var(--scale, 1)); */
   cursor: pointer;
   text-align: center;
 }
@@ -737,15 +745,6 @@ progress {
 }
 
 /* Landscape layout (aspect ratio responsive) */
-body.layout-landscape .popup--aside-layout {
-  flex-direction: row;
-  align-items: center;
-}
-
-body.layout-landscape .popup__aside {
-  order: 0;
-}
-
 body.layout-landscape .game-shell {
   display: flex;
   flex-direction: row;
@@ -756,17 +755,6 @@ body.layout-landscape .game-shell {
   height: 100%;
   max-width: 100%;
   margin: 0;
-}
-
-body.layout-landscape .game-view {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: calc(1rem * var(--scale, 1));
-  width: auto;
-  grid-template-columns: unset;
-  grid-template-rows: unset;
 }
 
 body.layout-landscape .game-layout {

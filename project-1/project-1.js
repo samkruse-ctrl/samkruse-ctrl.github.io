@@ -1119,6 +1119,10 @@ function init() {
     if (shell) ro.observe(shell);
   }
   requestAnimationFrame(() => syncViewportCssVars());
+  // DEBUG: Show finale layer immediately for testing
+  //showFinaleLayer();
+  startFinaleCutscene();
+  return; // Skip normal init
   renderOpeningIntro();
   syncAllBars();
   applyStageToolbarAndLocks();

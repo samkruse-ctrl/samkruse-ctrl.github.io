@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Courier New", monospace;
+  background: #d8d0c4;
+  color: #2f2a24;
+  cursor: none;
+  touch-action: none;
+}
+
+#main {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 1.5rem;
+  pointer-events: none;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  width: min(78vw, 46rem);
+  aspect-ratio: 4 / 3;
+  background: transparent;
+  pointer-events: none;
+}
+
+.container__label {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 1;
+  margin: 0;
+  padding: 0.2rem 0.45rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: rgba(239, 232, 220, 0.82);
+  pointer-events: none;
+}
+
+.page-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  cursor: none;
+}

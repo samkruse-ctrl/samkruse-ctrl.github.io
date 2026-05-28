@@ -24,6 +24,50 @@ const CREATURE_STAGE_ATTR = {
   [Stage.FINAL]: "final",
 };
 
+/** Duration of the tool-press CSS animation in ms (matches creature--press-* keyframes). */
+const TOOL_PRESS_ANIMATION_MS = 500;
+
+/** Duration of the bar-full shake CSS animation in ms (matches creature--bar-full keyframes). */
+const BAR_FULL_ANIMATION_MS = 500;
+
+/**
+ * Sprite frames per phase and action.
+ * idle: path shown when no action is playing.
+ * Each action key maps to [frame1, frame2].
+ */
+const PHASE_SPRITES = {
+  feed: {
+    idle: "img/Asset 16.svg",
+    eat: ["img/Asset 16-eat-1.svg", "img/Asset 16-eat-2.svg"],
+  },
+  play: {
+    idle: "img/Asset 17.svg",
+    eat: ["img/Asset 17-eat-1.svg", "img/Asset 17-eat-2.svg"],
+    play: ["img/Asset 17-play-1.svg", "img/Asset 17-play-2.svg"],
+  },
+  travel: {
+    idle: "img/Asset 18.svg",
+    eat: ["img/Asset 18-eat-1.svg", "img/Asset 18-eat-2.svg"],
+    play: ["img/Asset 18-play-1.svg", "img/Asset 18-play-2.svg"],
+    travel: ["img/Asset 18-travel-1.svg", "img/Asset 18-travel-2.svg"],
+  },
+  final: {
+    idle: "img/Asset 19.svg",
+    eat: ["img/Asset 19-eat-1.svg", "img/Asset 19-eat-2.svg"],
+    play: ["img/Asset 19-play-1.svg", "img/Asset 19-play-2.svg"],
+    travel: ["img/Asset 19-travel-1.svg", "img/Asset 19-travel-2.svg"],
+    read: ["img/Asset 19-read-1.svg", "img/Asset 19-read-2.svg"],
+  },
+};
+
+/** Maps each toolbar barKey to the action name used in PHASE_SPRITES. */
+const BAR_TO_ACTION = {
+  feed: "eat",
+  play: "play",
+  travel: "travel",
+  final: "read",
+};
+
 /** @typedef {'feed' | 'play' | 'travel' | 'final'} BarKey */
 
 /** Max value for each progress bar (0–100 scale for <progress>). */
@@ -188,6 +232,7 @@ const ui = {
   barFullToast: null,
   stagePopupDefault: null,
   finaleCutscene: null,
+  creatureSprite: null,
 };
 
 /** @type {number | null} */
@@ -204,7 +249,16 @@ const barFullMessages = {
 };
 
 function setAnimatedText(el, text) {
-  el.innerHTML = text.split('').map((letter, i) => `<span class="letter" style="animation-delay: ${i * 0.1}s">${letter}</span>`).join('');
+  let charIndex = 0;
+  el.innerHTML = text.split(' ').map((word) => {
+    const wordSpans = word.split('').map((letter) => {
+      const span = `<span class="letter" style="animation-delay: ${charIndex * 0.1}s">${letter}</span>`;
+      charIndex++;
+      return span;
+    }).join('');
+    charIndex++; // account for the space between words
+    return `<span class="letter-word">${wordSpans}</span>`;
+  }).join(' ');
 }
 
 /**
@@ -308,6 +362,7 @@ function cacheDom() {
   ui.introSeqImage = document.getElementById("intro-seq-image");
   ui.stagePopupImage = document.getElementById("stage-popup-image");
   ui.stagePopupImageAlt = document.getElementById("stage-popup-image-alt");
+  ui.creatureSprite = document.getElementById("creature-sprite");
 }
 
 function wireButtons() {
@@ -679,6 +734,7 @@ function triggerToolPressAnimation(barKey, onAnimationEnd) {
   Object.values(CREATURE_PRESS_CLASSES).forEach((c) => el.classList.remove(c));
   void el.offsetWidth;
   el.classList.add(cls);
+  animateSpriteAction(barKey);
   let finished = false;
   const finish = () => {
     if (finished) return;
@@ -735,19 +791,75 @@ function syncCreaturePlaceholder() {
   const key = CREATURE_STAGE_ATTR[gameState.stage];
   if (!key) return;
   el.setAttribute("data-creature-stage", key);
+
   const svg = el.querySelector(".creature__placeholder");
-  if (!svg) return;
-  const phases = svg.querySelectorAll("g[data-creature-phase]");
-  for (const g of phases) {
-    const phase = g.getAttribute("data-creature-phase");
-    const active = phase === key;
-    g.setAttribute("visibility", active ? "visible" : "hidden");
-    if (active) {
-      g.style.removeProperty("display");
-    } else {
-      g.style.setProperty("display", "none");
+  const sprite = ui.creatureSprite;
+  const isIntro = gameState.stage === Stage.INTRO;
+
+  if (isIntro) {
+    // Intro: show SVG placeholder, hide real sprite
+    if (svg) {
+      svg.style.removeProperty("display");
+      const phases = svg.querySelectorAll("g[data-creature-phase]");
+      for (const g of phases) {
+        const phase = g.getAttribute("data-creature-phase");
+        const active = phase === key;
+        g.setAttribute("visibility", active ? "visible" : "hidden");
+        active ? g.style.removeProperty("display") : g.style.setProperty("display", "none");
+      }
+    }
+    if (sprite) {
+      sprite.hidden = true;
+      sprite.src = "";
+      delete sprite.dataset.phase;
+    }
+  } else {
+    // Gameplay phases: hide SVG placeholder, show real sprite
+    if (svg) svg.style.setProperty("display", "none");
+    if (sprite) {
+      const phaseSprites = PHASE_SPRITES[key];
+      if (phaseSprites) {
+        // Only set idle src if no action animation is currently playing
+        if (!sprite.dataset.actionActive) {
+          sprite.src = phaseSprites.idle;
+        }
+        sprite.dataset.phase = key;
+        sprite.hidden = false;
+      }
     }
   }
+}
+
+/**
+ * Cycles the creature sprite between two action frames for the duration of a tool press,
+ * then restores the idle frame. Runs concurrently with the CSS press animation.
+ * @param {BarKey} barKey
+ */
+function animateSpriteAction(barKey) {
+  const sprite = ui.creatureSprite;
+  if (!sprite || sprite.hidden) return;
+  const key = CREATURE_STAGE_ATTR[gameState.stage];
+  if (!key || key === "intro") return;
+  const phaseSprites = PHASE_SPRITES[key];
+  if (!phaseSprites) return;
+  const action = BAR_TO_ACTION[barKey];
+  const frames = action ? phaseSprites[action] : null;
+  if (!frames || frames.length < 2) return;
+
+  const FRAME_DURATION_MS = 200;
+  sprite.dataset.actionActive = "1";
+  let frameIdx = 0;
+
+  const intervalId = window.setInterval(() => {
+    frameIdx = (frameIdx + 1) % 2;
+    sprite.src = frames[frameIdx];
+  }, FRAME_DURATION_MS);
+
+  window.setTimeout(() => {
+    window.clearInterval(intervalId);
+    delete sprite.dataset.actionActive;
+    sprite.src = phaseSprites.idle;
+  }, TOOL_PRESS_ANIMATION_MS);
 }
 
 function applyStageToolbarAndLocks() {

@@ -30,6 +30,7 @@ html {
 :root {
   --viewport-side: 16rem;
   --scale: 1;
+  --sprite-pixel-unit: calc(6px * var(--scale, 1));
 }
 
 .is-hidden,
@@ -133,19 +134,38 @@ html {
 }
 
 .creature {
+  position: absolute;
+  inset: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 100%;
-  max-height: 100%;
 }
 
 .creature__placeholder {
   display: block;
-  width: calc(min(11rem, 78%) * var(--scale, 1));
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(min(7rem, 50%) * var(--scale, 1));
   height: auto;
-  max-height: calc(min(11rem, 78%) * var(--scale, 1));
 }
+
+.creature__sprite {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(13 * var(--sprite-pixel-unit));
+  height: auto;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.creature__sprite[data-phase="feed"]   { width: calc(9  * var(--sprite-pixel-unit)); }
+.creature__sprite[data-phase="play"]   { width: calc(16 * var(--sprite-pixel-unit)); }
+.creature__sprite[data-phase="travel"] { width: calc(22 * var(--sprite-pixel-unit)); }
+.creature__sprite[data-phase="final"]  { width: calc(13 * var(--sprite-pixel-unit)); }
 
 .creature-viewport__bars {
   flex-shrink: 0;
@@ -724,6 +744,10 @@ body.layout-portrait .stage-popup-layer:not(.stage-popup-layer--finale) .popup--
   font-style: normal;
   cursor: pointer;
   text-align: center;
+}
+
+.letter-word {
+  white-space: nowrap;
 }
 
 .letter {

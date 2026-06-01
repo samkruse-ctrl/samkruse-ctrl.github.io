@@ -83,6 +83,11 @@ const ROCK_FRICTION_AIR_LARGE = 0.008;
 const ROCK_FRICTION_AIR_SMALL = 0.045;
 const ROCK_PHYSICS_SIZE_CURVE = 0.5;
 
+const CURSOR_TOP_IMAGE_PATH = "./Img/top-1.png";
+const CURSOR_SIDE_IMAGE_PATH = "./Img/side-1.png";
+const CURSOR_POKE_IMAGE_PATH = "./Img/poke-1.png";
+const CURSOR_SPRITE_WIDTH = 110;
+
 const CURSOR_RADIUS = 22;
 const CURSOR_DENSITY = 0.2;
 const CURSOR_SURFACE_FRICTION = 0.1;
@@ -1589,62 +1594,48 @@ function drawCursorCollider(p, cursorBody) {
   p.circle(x, y, CURSOR_RADIUS * 2);
 }
 
-function drawCustomCursor(p, rock, cursorX, cursorY, anchorX, anchorY) {
+function drawCustomCursor(p, rock, cursorX, cursorY, anchorX, anchorY, isPoking, cursorTopSprite, cursorSideSprite, cursorPokeSprite) {
   const rockX = rock.position.x;
   const rockY = rock.position.y;
   const aimAngle = Math.atan2(rockY - cursorY, rockX - cursorX);
-  const distance = Math.hypot(rockX - cursorX, rockY - cursorY);
-  const reach = p.constrain(distance / 220, 0.35, 1);
 
-  p.push();
-  p.translate(cursorX, cursorY);
-  p.rotate(aimAngle);
+  // Select the cursor image: poke during a click, top/bottom or side based on aim angle
+  let cursorSprite;
+  if (isPoking) {
+    cursorSprite = cursorPokeSprite;
+  } else if (Math.abs(Math.sin(aimAngle)) > 0.906) {
+    // Rock is mostly above or below — 65° threshold
+    cursorSprite = cursorTopSprite;
+  } else {
+    // Rock is mostly to the side
+    cursorSprite = cursorSideSprite;
+  }
 
-  p.noFill();
-  p.stroke(47, 42, 36, 150);
-  p.strokeWeight(1.5);
-  p.circle(0, 0, CURSOR_RADIUS * 2.15);
-
-  p.stroke(47, 42, 36, 210);
-  p.strokeWeight(2);
-  p.line(-CURSOR_RADIUS * 0.55, 0, CURSOR_RADIUS * 0.55, 0);
-  p.line(0, -CURSOR_RADIUS * 0.55, 0, CURSOR_RADIUS * 0.55);
-
-  p.noStroke();
-  p.fill(47, 42, 36, 90);
-  p.triangle(
-    CURSOR_RADIUS * (0.35 + reach * 0.45),
-    0,
-    -CURSOR_RADIUS * 0.45,
-    -CURSOR_RADIUS * 0.34,
-    -CURSOR_RADIUS * 0.45,
-    CURSOR_RADIUS * 0.34
-  );
-
-  p.fill(239, 232, 220);
-  p.stroke(47, 42, 36);
-  p.strokeWeight(1.5);
-  p.circle(-CURSOR_RADIUS * 0.62, 0, CURSOR_RADIUS * 0.28);
-
-  p.push();
-  p.rotate(-aimAngle);
-  p.noFill();
-  p.stroke(47, 42, 36, 120);
-  p.strokeWeight(1.25);
-  p.line(0, 0, rockX - cursorX, rockY - cursorY);
-  p.pop();
-
-  if (Math.hypot(cursorX - anchorX, cursorY - anchorY) > POKE_TETHER_MIN_OFFSET) {
+  if (cursorSprite && cursorSprite.width > 0) {
+    const aspectRatio = cursorSprite.height / cursorSprite.width;
+    const drawW = CURSOR_SPRITE_WIDTH;
+    const drawH = drawW * aspectRatio;
+    // Mirror when the cursor is on the left side of the rock
+    const mirrorY = Math.cos(aimAngle) > 0 ? -1 : 1;
     p.push();
-    p.rotate(-aimAngle);
+    p.translate(cursorX, cursorY);
+    p.rotate(aimAngle + Math.PI);
+    p.scale(1, mirrorY);
+    p.imageMode(p.CENTER);
+    p.image(cursorSprite, 0, 0, drawW, drawH);
+    p.pop();
+  }
+
+  // Tether line from anchor back to cursor (visible during poke extension, not during poke sprite)
+  if (!isPoking && Math.hypot(cursorX - anchorX, cursorY - anchorY) > POKE_TETHER_MIN_OFFSET) {
+    p.push();
+    p.translate(cursorX, cursorY);
     p.noFill();
     p.stroke(47, 42, 36, 90);
     p.strokeWeight(1.25);
     p.line(anchorX - cursorX, anchorY - cursorY, 0, 0);
     p.pop();
   }
-
-  p.pop();
 }
 
 const sketch = (p) => {
@@ -1666,6 +1657,9 @@ const sketch = (p) => {
   let rockSprite;
   let rockSpriteCache = new Map();
   let boxSprite;
+  let cursorTopSprite;
+  let cursorSideSprite;
+  let cursorPokeSprite;
   let collisionSound;
   let lastCollisionSoundAt = 0;
   let sceneReady = false;
@@ -1702,13 +1696,19 @@ const sketch = (p) => {
     p.noCursor();
 
     try {
-      [rockSprite, boxSprite] = await Promise.all([
+      [rockSprite, boxSprite, cursorTopSprite, cursorSideSprite, cursorPokeSprite] = await Promise.all([
         p.loadImage(ROCK_IMAGE_PATH),
         p.loadImage(BOX_IMAGE_PATH),
+        p.loadImage(CURSOR_TOP_IMAGE_PATH),
+        p.loadImage(CURSOR_SIDE_IMAGE_PATH),
+        p.loadImage(CURSOR_POKE_IMAGE_PATH),
       ]);
     } catch (error) {
       rockSprite = null;
       boxSprite = null;
+      cursorTopSprite = null;
+      cursorSideSprite = null;
+      cursorPokeSprite = null;
       console.error("Failed to load project images", error);
     }
 
@@ -1894,8 +1894,7 @@ const sketch = (p) => {
       drawRock(p, rockState, rockSprite, rockSpriteCache);
     }
 
-    drawCursorCollider(p, cursorBody);
-    drawCustomCursor(p, interactionRock, cursorX, cursorY, pointerX, pointerY);
+    drawCustomCursor(p, interactionRock, cursorX, cursorY, pointerX, pointerY, isPoking, cursorTopSprite, cursorSideSprite, cursorPokeSprite);
   };
 
   p.windowResized = () => {
